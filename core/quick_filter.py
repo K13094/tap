@@ -82,46 +82,59 @@ def _ensure_patterns():
         "RID-", "default-ssid", "remoteid",
         # DJI (including new models)
         "DJI", "Tello", "TELLO", "MAVIC", "PHANTOM", "INSPIRE",
-        "MATRICE", "AGRAS", "FLYCART", "AVATA", "LITO",
+        "MATRICE", "AGRAS", "FLYCART", "AVATA", "LITO", "FLIP",
+        "FlightHub",
         # Parrot
-        "ANAFI", "Parrot", "DISCO", "Bebop", "SkyController",
+        "ANAFI", "ANAFIThermal", "ANAFIUsa", "ANAFIAi",
+        "Parrot", "DISCO", "Bebop", "SkyController",
         # Autel
         "Autel", "EVO", "Dragonfish", "Alpha", "Titan",
         # Skydio
         "Skydio", "X10D", "X10",
         # Yuneec
-        "Yuneec", "Typhoon", "Mantis", "Breeze",
+        "Yuneec", "YUNEEC", "Typhoon", "Mantis", "Breeze",
+        "H520", "H850",
         # Other major manufacturers
-        "FIMI", "PowerEgg", "PowerVision", "Hubsan", "Holy",
-        "Xiaomi", "BETAFPV", "BetaFPV", "Cetus", "Meteor",
+        "FIMI", "PowerEgg", "PowerVision", "PowerEye",
+        "Hubsan", "Holy", "Xiaomi",
+        "BETAFPV", "BetaFPV", "Cetus", "Meteor",
         "iFlight", "Nazgul", "Chimera", "Cinewhoop",
-        "Walksnail", "GEPRC", "CineLog", "MARK5",
-        "Diatone", "Flywoo", "Explorer", "HappyModel", "Mobula",
+        "Walksnail", "Caddx", "GEPRC", "CineLog", "MARK5", "DarkStar",
+        "Diatone", "Flywoo", "Explorer", "HappyModel", "Mobula", "Crux",
         "SpeedyBee", "Eachine", "EMAX", "TinyHawk", "HDZero",
+        "Fatshark", "TBS", "CROSSFIRE",
         # Budget consumer drones
         "Potensic", "Ruko", "Bwine", "SJRC", "MJX", "JJRC",
-        "Syma", "Snaptain", "Contixo", "Force1", "Ryze",
+        "Syma", "Snaptain", "Contixo", "Force1", "FORCE1", "Ryze",
         "DEERC", "SIMREX", "Tomzon", "NEHEME", "ATTOP",
-        "AOVO", "HOVERAir", "HOVER",
+        "AOVO", "HOVERAir", "HOVER", "Loolinn",
+        "Dragon Touch",
         # Enterprise / industrial
         "Wing", "EHang", "Matternet", "Zipline", "Joby",
-        "Wisk", "Volansi", "Wingtra", "senseFly", "Delair",
-        "AgEagle", "PrecisionHawk", "DroneDeploy",
+        "Wisk", "Volansi", "Wingtra", "senseFly", "SENSEFLY", "Delair",
+        "AgEagle", "eBee", "PrecisionHawk", "DroneDeploy",
         "Brinc", "Lemur", "Responder", "Guardian",
-        "Teal", "GoldenEagle", "Freefly", "ASTRO",
+        "Teal", "GoldenEagle", "Freefly", "ASTRO", "ALTA",
         "ModalAI", "Sentinel", "VOXL",
         "InspiredFlight", "IF750", "IF800", "IF1200",
         "Draganfly", "Commander", "Quantix",
-        "Flyability", "Elios", "SkyRanger", "FLIR",
+        "Flyability", "Elios", "SkyRanger", "FLIR", "SIRAS",
         "Percepto", "Airobotics", "Censys", "Sentaero",
         "Prodrone", "ACSL", "SOTEN", "Doosan",
         "MicroDrone", "Trinity", "Quantum",
         "Wingcopter", "ArduPilot", "PX4",
+        # Military / law enforcement
+        "BlackHornet", "RAVEN", "AeroVironment", "Switchblade",
+        "InstantEye",
+        # DIY / open-source
+        "ESP-DRONE", "PixRacer", "QGroundControl", "MissionPlanner",
         # Additional manufacturers
         "Walkera", "Vitus", "ZeroTech", "Dobby",
         "Wingsland", "XDynamics", "Evolve",
         "Volatus", "InDro", "Herelink", "CubePilot",
         "Kespry", "Lancaster", "XAG",
+        "Vantage", "Vesper", "ImpossibleAero",
+        "HarrisAerial",
     )
     triggers.update(_SSID_TRIGGERS)
 

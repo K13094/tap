@@ -1,5 +1,5 @@
 {
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "Drone manufacturer/model database for nozyme enrichment. Covers consumer, prosumer, enterprise, FPV, agricultural, delivery, industrial, survey, and public-safety drones. OUI database includes IEEE-confirmed manufacturer blocks, observed product OUIs, and Espressif ESP32 module OUIs for FPV/DIY drone detection.",
     "serial_prefixes": {
         "1581F0A": {
@@ -878,7 +878,11 @@
         "F8:4D:89": "Radiomaster (controller)",
         "D4:8C:49": "FrSky (controller)",
         "A8:61:0A": "EdgeTX/OpenTX (controller)",
-        "B0:7B:25": "TAI Anka (drone)"
+        "B0:7B:25": "TAI Anka (drone)",
+        "84:83:19": "Hangzhou Zero Zero Technology - ZeroTech Dobby (drone)",
+        "00:1A:F9": "AeroVironment - Puma/Switchblade UAS (drone)",
+        "70:A6:6A": "Prox Dynamics AS - Black Hornet nano drone (drone)",
+        "2C:4D:79": "Weifang Goertek Electronics - DJI Tello (drone)"
     },
     "dji_ssid_models": {
         "MAVICPRO": "Mavic Pro",
@@ -2577,6 +2581,81 @@
             "pattern": "^DJI[_ ]?MATRICE[-_ ]?4[-_ ]?PRO",
             "manufacturer": "DJI",
             "model": "Matrice 4 Pro"
+        },
+        {
+            "pattern": "^Force1[-_ ]",
+            "manufacturer": "Force1",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^FORCE1",
+            "manufacturer": "Force1",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^ANAFIThermal",
+            "manufacturer": "Parrot",
+            "model": "Anafi Thermal"
+        },
+        {
+            "pattern": "^ANAFIUsa",
+            "manufacturer": "Parrot",
+            "model": "Anafi USA"
+        },
+        {
+            "pattern": "^ANAFIAi",
+            "manufacturer": "Parrot",
+            "model": "Anafi AI"
+        },
+        {
+            "pattern": "^ESP-DRONE",
+            "manufacturer": "Espressif",
+            "model": "ESP-Drone"
+        },
+        {
+            "pattern": "^BlackHornet",
+            "manufacturer": "FLIR/Prox Dynamics",
+            "model": "Black Hornet"
+        },
+        {
+            "pattern": "^BLACK[-_ ]?HORNET",
+            "manufacturer": "FLIR/Prox Dynamics",
+            "model": "Black Hornet"
+        },
+        {
+            "pattern": "^RAVEN[-_ ]",
+            "manufacturer": "AeroVironment",
+            "model": "Raven"
+        },
+        {
+            "pattern": "^DJI[-_ ]?FLIP",
+            "manufacturer": "DJI",
+            "model": "Flip"
+        },
+        {
+            "pattern": "^TELLO-[A-F0-9]{6}",
+            "manufacturer": "DJI/Ryze",
+            "model": "Tello"
+        },
+        {
+            "pattern": "^Anafi[-_ ]?[A-Z0-9]{4,}",
+            "manufacturer": "Parrot",
+            "model_hint": "Anafi"
+        },
+        {
+            "pattern": "^Eachine[-_ ]",
+            "manufacturer": "Eachine",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^DJI[-_ ]?DOCK",
+            "manufacturer": "DJI",
+            "model": "Dock 2"
+        },
+        {
+            "pattern": "^FlightHub",
+            "manufacturer": "DJI",
+            "model_hint": "FlightHub"
         }
     ]
 }
