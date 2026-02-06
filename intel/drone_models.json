@@ -1,5 +1,5 @@
 {
-    "version": "2.4.1-audited",
+    "version": "2.5.0",
     "description": "Drone manufacturer/model database for nozyme enrichment. All OUIs independently verified against IEEE MA-L/MA-M registry via macvendors API (2026-02-06 audit). Covers consumer, prosumer, enterprise, FPV, agricultural, and military drones.",
     "serial_prefixes": {
         "1581F0A": {
@@ -676,6 +676,11 @@
         "A0:14:3D": "Parrot (drone)",
         "90:03:B7": "Parrot (controller)",
         "38:1D:14": "Skydio (drone)",
+        "EC:5B:CD": "Autel Robotics (drone)",
+        "18:D7:93": "Autel Intelligent (drone)",
+        "74:B8:0F": "Zipline (drone)",
+        "A4:51:29": "XAG (drone)",
+        "C4:CC:37": "Joby Aviation (drone)",
         "D4:D9:19": "GoPro (drone)",
         "D8:96:85": "GoPro (drone)",
         "F4:DD:9E": "GoPro (drone)",
