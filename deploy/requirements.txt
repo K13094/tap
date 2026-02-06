@@ -1,0 +1,12 @@
+# nozyme-tap dependencies
+# Core (required)
+pyzmq>=25.0
+msgpack>=1.0
+
+# System health monitoring (optional, fallback to /proc on Linux)
+psutil>=5.9
+
+# Performance (optional, falls back to stdlib json)
+orjson>=3.9
+
+# Protocol and enrichment are now bundled in nozyme_tap itself

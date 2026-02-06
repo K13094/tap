@@ -1,0 +1,2565 @@
+{
+    "version": "2.2.0",
+    "description": "Drone manufacturer/model database for nozyme enrichment. Covers consumer, prosumer, enterprise, FPV, agricultural, delivery, industrial, survey, and public-safety drones. OUI database includes IEEE-confirmed manufacturer blocks, observed product OUIs, and Espressif ESP32 module OUIs for FPV/DIY drone detection.",
+    "serial_prefixes": {
+        "1581F0A": {
+            "manufacturer": "DJI",
+            "model": "Mavic Pro"
+        },
+        "1581F0B": {
+            "manufacturer": "DJI",
+            "model": "Mavic Pro Platinum"
+        },
+        "1581F0C": {
+            "manufacturer": "DJI",
+            "model": "Mavic Air"
+        },
+        "1581F1A": {
+            "manufacturer": "DJI",
+            "model": "Mini 4"
+        },
+        "1581F1B": {
+            "manufacturer": "DJI",
+            "model": "Mini SE"
+        },
+        "1581F1C": {
+            "manufacturer": "DJI",
+            "model": "Mavic Mini"
+        },
+        "1581F1V": {
+            "manufacturer": "DJI",
+            "model": "Mini 2"
+        },
+        "1581F1W": {
+            "manufacturer": "DJI",
+            "model": "Mini 2 SE"
+        },
+        "1581F1X": {
+            "manufacturer": "DJI",
+            "model": "Mini 3"
+        },
+        "1581F1Y": {
+            "manufacturer": "DJI",
+            "model": "Mini 3 Pro"
+        },
+        "1581F1Z": {
+            "manufacturer": "DJI",
+            "model": "Mini 4 Pro"
+        },
+        "1581F2A": {
+            "manufacturer": "DJI",
+            "model": "Mavic 2 Pro"
+        },
+        "1581F2B": {
+            "manufacturer": "DJI",
+            "model": "Mavic 2 Zoom"
+        },
+        "1581F2C": {
+            "manufacturer": "DJI",
+            "model": "Mavic 2 Enterprise"
+        },
+        "1581F2D": {
+            "manufacturer": "DJI",
+            "model": "Mavic 2 Enterprise Advanced"
+        },
+        "1581F3A": {
+            "manufacturer": "DJI",
+            "model": "Agras T30"
+        },
+        "1581F3B": {
+            "manufacturer": "DJI",
+            "model": "Agras T40"
+        },
+        "1581F3C": {
+            "manufacturer": "DJI",
+            "model": "Agras T25"
+        },
+        "1581F3D": {
+            "manufacturer": "DJI",
+            "model": "Agras T50"
+        },
+        "1581F3E": {
+            "manufacturer": "DJI",
+            "model": "Agras T10"
+        },
+        "1581F3F": {
+            "manufacturer": "DJI",
+            "model": "Agras T20P"
+        },
+        "1581F3G": {
+            "manufacturer": "DJI",
+            "model": "Agras T60"
+        },
+        "1581F4S": {
+            "manufacturer": "DJI",
+            "model": "FPV"
+        },
+        "1581F4T": {
+            "manufacturer": "DJI",
+            "model": "Avata"
+        },
+        "1581F4U": {
+            "manufacturer": "DJI",
+            "model": "Avata 2"
+        },
+        "1581F4V": {
+            "manufacturer": "DJI",
+            "model": "Neo"
+        },
+        "1581F4W": {
+            "manufacturer": "DJI",
+            "model": "Flip"
+        },
+        "1581F5H": {
+            "manufacturer": "DJI",
+            "model": "Mavic 3"
+        },
+        "1581F5J": {
+            "manufacturer": "DJI",
+            "model": "Mavic 3 Classic"
+        },
+        "1581F5K": {
+            "manufacturer": "DJI",
+            "model": "Mavic 3 Pro"
+        },
+        "1581F5L": {
+            "manufacturer": "DJI",
+            "model": "Mavic 3 Enterprise"
+        },
+        "1581F5M": {
+            "manufacturer": "DJI",
+            "model": "Mavic 3 Multispectral"
+        },
+        "1581F5N": {
+            "manufacturer": "DJI",
+            "model": "Mavic 3 Thermal"
+        },
+        "1581F6N": {
+            "manufacturer": "DJI",
+            "model": "Air 2S"
+        },
+        "1581F6P": {
+            "manufacturer": "DJI",
+            "model": "Air 3"
+        },
+        "1581F6Q": {
+            "manufacturer": "DJI",
+            "model": "Air 3S"
+        },
+        "1581F6R": {
+            "manufacturer": "DJI",
+            "model": "Mavic Air 2"
+        },
+        "1581F7A": {
+            "manufacturer": "DJI",
+            "model": "Matrice 30"
+        },
+        "1581F7B": {
+            "manufacturer": "DJI",
+            "model": "Matrice 30T"
+        },
+        "1581F7C": {
+            "manufacturer": "DJI",
+            "model": "Matrice 300 RTK"
+        },
+        "1581F7D": {
+            "manufacturer": "DJI",
+            "model": "Matrice 350 RTK"
+        },
+        "1581F7E": {
+            "manufacturer": "DJI",
+            "model": "Matrice 4"
+        },
+        "1581F7F": {
+            "manufacturer": "DJI",
+            "model": "Matrice 4T"
+        },
+        "1581F7G": {
+            "manufacturer": "DJI",
+            "model": "Matrice 4E"
+        },
+        "1581F7H": {
+            "manufacturer": "DJI",
+            "model": "Matrice 600 Pro"
+        },
+        "1581F8A": {
+            "manufacturer": "DJI",
+            "model": "Phantom 4 Pro V2"
+        },
+        "1581F8B": {
+            "manufacturer": "DJI",
+            "model": "Phantom 4 RTK"
+        },
+        "1581F8C": {
+            "manufacturer": "DJI",
+            "model": "Phantom 4 Multispectral"
+        },
+        "1581F9A": {
+            "manufacturer": "DJI",
+            "model": "Inspire 3"
+        },
+        "1581F9B": {
+            "manufacturer": "DJI",
+            "model": "Inspire 2"
+        },
+        "1581FCA": {
+            "manufacturer": "DJI",
+            "model": "FlyCart 30"
+        },
+        "PI020": {
+            "manufacturer": "Parrot",
+            "model": "Bebop 2"
+        },
+        "PI030": {
+            "manufacturer": "Parrot",
+            "model": "Disco"
+        },
+        "PI040": {
+            "manufacturer": "Parrot",
+            "model": "Anafi"
+        },
+        "PI050": {
+            "manufacturer": "Parrot",
+            "model": "Anafi USA"
+        },
+        "PI060": {
+            "manufacturer": "Parrot",
+            "model": "Anafi AI"
+        },
+        "PI070": {
+            "manufacturer": "Parrot",
+            "model": "Anafi Thermal"
+        },
+        "PI080": {
+            "manufacturer": "Parrot",
+            "model": "Anafi USA Gov"
+        },
+        "PI090": {
+            "manufacturer": "Parrot",
+            "model": "Bluegrass"
+        },
+        "AUT": {
+            "manufacturer": "Autel",
+            "model": "EVO"
+        },
+        "AUTEVO2": {
+            "manufacturer": "Autel",
+            "model": "EVO II"
+        },
+        "AUTEVO2P": {
+            "manufacturer": "Autel",
+            "model": "EVO II Pro"
+        },
+        "AUTEVO2D": {
+            "manufacturer": "Autel",
+            "model": "EVO II Dual"
+        },
+        "AUTEVO2E": {
+            "manufacturer": "Autel",
+            "model": "EVO II Enterprise"
+        },
+        "AUTEVO3": {
+            "manufacturer": "Autel",
+            "model": "EVO III"
+        },
+        "AUTEVO3P": {
+            "manufacturer": "Autel",
+            "model": "EVO III Pro"
+        },
+        "AUTLITE": {
+            "manufacturer": "Autel",
+            "model": "EVO Lite+"
+        },
+        "AUTLITES": {
+            "manufacturer": "Autel",
+            "model": "EVO Lite"
+        },
+        "AUTNANO": {
+            "manufacturer": "Autel",
+            "model": "EVO Nano+"
+        },
+        "AUTNANOS": {
+            "manufacturer": "Autel",
+            "model": "EVO Nano"
+        },
+        "AUTMAX": {
+            "manufacturer": "Autel",
+            "model": "EVO Max 4T"
+        },
+        "AUTMAX4N": {
+            "manufacturer": "Autel",
+            "model": "EVO Max 4N"
+        },
+        "AUTDRGN": {
+            "manufacturer": "Autel",
+            "model": "Dragonfish"
+        },
+        "AUTTITAN": {
+            "manufacturer": "Autel",
+            "model": "Titan"
+        },
+        "AUTALPHA": {
+            "manufacturer": "Autel",
+            "model": "Alpha"
+        },
+        "SKY2": {
+            "manufacturer": "Skydio",
+            "model": "Skydio 2"
+        },
+        "SKY2P": {
+            "manufacturer": "Skydio",
+            "model": "Skydio 2+"
+        },
+        "SKYX2": {
+            "manufacturer": "Skydio",
+            "model": "Skydio X2"
+        },
+        "SKYX2D": {
+            "manufacturer": "Skydio",
+            "model": "Skydio X2D"
+        },
+        "SKYX2E": {
+            "manufacturer": "Skydio",
+            "model": "Skydio X2E"
+        },
+        "SKYX10": {
+            "manufacturer": "Skydio",
+            "model": "Skydio X10"
+        },
+        "YUN": {
+            "manufacturer": "Yuneec",
+            "model": "generic"
+        },
+        "YUNTYPH": {
+            "manufacturer": "Yuneec",
+            "model": "Typhoon H"
+        },
+        "YUNTYHP": {
+            "manufacturer": "Yuneec",
+            "model": "Typhoon H Plus"
+        },
+        "YUNTYH3": {
+            "manufacturer": "Yuneec",
+            "model": "Typhoon H3"
+        },
+        "YUNH520": {
+            "manufacturer": "Yuneec",
+            "model": "H520"
+        },
+        "YUNH52E": {
+            "manufacturer": "Yuneec",
+            "model": "H520E"
+        },
+        "YUNMNTQ": {
+            "manufacturer": "Yuneec",
+            "model": "Mantis Q"
+        },
+        "BRINC": {
+            "manufacturer": "Brinc",
+            "model": "Lemur 2"
+        },
+        "TEAL": {
+            "manufacturer": "Teal Drones",
+            "model": "Golden Eagle"
+        },
+        "TEAL2": {
+            "manufacturer": "Teal Drones",
+            "model": "Teal 2"
+        },
+        "WING": {
+            "manufacturer": "Wing (Alphabet)",
+            "model": "Delivery"
+        },
+        "ZIPLN": {
+            "manufacturer": "Zipline",
+            "model": "P2 Zip"
+        },
+        "MTNET": {
+            "manufacturer": "Matternet",
+            "model": "M2"
+        },
+        "JOBY": {
+            "manufacturer": "Joby Aviation",
+            "model": "S4"
+        },
+        "WISK": {
+            "manufacturer": "Wisk Aero",
+            "model": "Cora"
+        },
+        "FLYAB": {
+            "manufacturer": "Flyability",
+            "model": "Elios"
+        },
+        "XDYN": {
+            "manufacturer": "XDynamics",
+            "model": "Evolve 2"
+        },
+        "PWRV": {
+            "manufacturer": "PowerVision",
+            "model": "PowerEgg X"
+        },
+        "3DR": {
+            "manufacturer": "3D Robotics",
+            "model": "Solo"
+        },
+        "FREEFLY": {
+            "manufacturer": "Freefly",
+            "model": "Astro"
+        },
+        "WINGTRA": {
+            "manufacturer": "Wingtra",
+            "model": "WingtraOne"
+        },
+        "SNSFLY": {
+            "manufacturer": "AgEagle (senseFly)",
+            "model": "eBee X"
+        },
+        "DELAIR": {
+            "manufacturer": "Delair",
+            "model": "UX11"
+        },
+        "MICROD": {
+            "manufacturer": "MicroDrones",
+            "model": "md4-3000"
+        },
+        "QSYS": {
+            "manufacturer": "Quantum-Systems",
+            "model": "Trinity F90+"
+        },
+        "WNGCPT": {
+            "manufacturer": "Wingcopter",
+            "model": "198"
+        },
+        "PERCPT": {
+            "manufacturer": "Percepto",
+            "model": "AIM"
+        },
+        "AIROB": {
+            "manufacturer": "Airobotics",
+            "model": "Optimus"
+        },
+        "INSFL": {
+            "manufacturer": "Inspired Flight",
+            "model": "IF1200A"
+        },
+        "HARRI": {
+            "manufacturer": "Harris Aerial",
+            "model": "Carrier H6"
+        },
+        "DRGNFLY": {
+            "manufacturer": "Draganfly",
+            "model": "Commander 3XL"
+        },
+        "CENSYS": {
+            "manufacturer": "Censys Technologies",
+            "model": "Sentaero"
+        },
+        "VOLAT": {
+            "manufacturer": "Volatus Aerospace",
+            "model": "Aero"
+        },
+        "PRODRONE": {
+            "manufacturer": "Prodrone",
+            "model": "PD6B-AW"
+        },
+        "ACSL": {
+            "manufacturer": "ACSL",
+            "model": "SOTEN"
+        },
+        "XAG": {
+            "manufacturer": "XAG",
+            "model": "P100"
+        },
+        "AERO": {
+            "manufacturer": "AeroVironment",
+            "model": "Puma 3"
+        },
+        "1581F5P": {
+            "manufacturer": "DJI",
+            "model": "Mavic 4 Pro"
+        },
+        "1581F5Q": {
+            "manufacturer": "DJI",
+            "model": "Mavic 4"
+        },
+        "1581F4X": {
+            "manufacturer": "DJI",
+            "model": "Neo 2"
+        },
+        "1581F4Y": {
+            "manufacturer": "DJI",
+            "model": "Avata 360"
+        },
+        "1581F4Z": {
+            "manufacturer": "DJI",
+            "model": "Avata 3"
+        },
+        "1581F3H": {
+            "manufacturer": "DJI",
+            "model": "Agras T55"
+        },
+        "1581F6S": {
+            "manufacturer": "DJI",
+            "model": "Air 4"
+        },
+        "1581F4A": {
+            "manufacturer": "DJI",
+            "model": "Lito 1"
+        },
+        "1581F4B": {
+            "manufacturer": "DJI",
+            "model": "Lito X1"
+        },
+        "1581F7J": {
+            "manufacturer": "DJI",
+            "model": "Matrice 4 Pro"
+        },
+        "AUTEVO2PV3": {
+            "manufacturer": "Autel",
+            "model": "EVO II Pro V3"
+        },
+        "AUTEVO2V3": {
+            "manufacturer": "Autel",
+            "model": "EVO II V3"
+        },
+        "AUTEVO2DV3": {
+            "manufacturer": "Autel",
+            "model": "EVO II Dual V3"
+        },
+        "SKYX10D": {
+            "manufacturer": "Skydio",
+            "model": "Skydio X10D"
+        },
+        "SKYR10": {
+            "manufacturer": "Skydio",
+            "model": "Skydio R10"
+        },
+        "SKYF10": {
+            "manufacturer": "Skydio",
+            "model": "Skydio F10"
+        },
+        "PI0A0": {
+            "manufacturer": "Parrot",
+            "model": "Anafi UKR"
+        },
+        "BRINCRESP": {
+            "manufacturer": "Brinc",
+            "model": "Responder"
+        },
+        "BRINCGRD": {
+            "manufacturer": "Brinc",
+            "model": "Guardian"
+        },
+        "INSFL800": {
+            "manufacturer": "Inspired Flight",
+            "model": "IF800"
+        },
+        "FREEMAX": {
+            "manufacturer": "Freefly",
+            "model": "Astro Max"
+        },
+        "MODAL": {
+            "manufacturer": "ModalAI",
+            "model": "Sentinel"
+        },
+        "1581F20": {
+            "manufacturer": "DJI",
+            "model": "Mini 5 Pro"
+        }
+    },
+    "dji_model_codes": {
+        "F0A": "Mavic Pro",
+        "F0B": "Mavic Pro Platinum",
+        "F0C": "Mavic Air",
+        "F1A": "Mini 4",
+        "F1B": "Mini SE",
+        "F1C": "Mavic Mini",
+        "F1V": "Mini 2",
+        "F1W": "Mini 2 SE",
+        "F1X": "Mini 3",
+        "F1Y": "Mini 3 Pro",
+        "F1Z": "Mini 4 Pro",
+        "F2A": "Mavic 2 Pro",
+        "F2B": "Mavic 2 Zoom",
+        "F2C": "Mavic 2 Enterprise",
+        "F2D": "Mavic 2 Enterprise Advanced",
+        "F3A": "Agras T30",
+        "F3B": "Agras T40",
+        "F3C": "Agras T25",
+        "F3D": "Agras T50",
+        "F3E": "Agras T10",
+        "F3F": "Agras T20P",
+        "F3G": "Agras T60",
+        "F4S": "FPV",
+        "F4T": "Avata",
+        "F4U": "Avata 2",
+        "F4V": "Neo",
+        "F4W": "Flip",
+        "F5H": "Mavic 3",
+        "F5J": "Mavic 3 Classic",
+        "F5K": "Mavic 3 Pro",
+        "F5L": "Mavic 3 Enterprise",
+        "F5M": "Mavic 3 Multispectral",
+        "F5N": "Mavic 3 Thermal",
+        "F6N": "Air 2S",
+        "F6P": "Air 3",
+        "F6Q": "Air 3S",
+        "F6R": "Mavic Air 2",
+        "F7A": "Matrice 30",
+        "F7B": "Matrice 30T",
+        "F7C": "Matrice 300 RTK",
+        "F7D": "Matrice 350 RTK",
+        "F7E": "Matrice 4",
+        "F7F": "Matrice 4T",
+        "F7G": "Matrice 4E",
+        "F7H": "Matrice 600 Pro",
+        "F8A": "Phantom 4 Pro V2",
+        "F8B": "Phantom 4 RTK",
+        "F8C": "Phantom 4 Multispectral",
+        "F9A": "Inspire 3",
+        "F9B": "Inspire 2",
+        "FCA": "FlyCart 30",
+        "F5P": "Mavic 4 Pro",
+        "F4X": "Neo 2",
+        "F4Y": "Avata 360",
+        "F4Z": "Avata 3",
+        "F3H": "Agras T55",
+        "F6S": "Air 4",
+        "F5Q": "Mavic 4",
+        "F7J": "Matrice 4 Pro",
+        "F4A": "Lito 1",
+        "F4B": "Lito X1",
+        "F20": "Mini 5 Pro"
+    },
+    "oui_map": {
+        "04:A8:5A": "DJI (drone)",
+        "04:D3:B0": "DJI (drone)",
+        "0C:9A:E6": "DJI (drone)",
+        "14:5A:FC": "DJI (drone)",
+        "20:DC:E6": "DJI (drone)",
+        "34:D2:62": "DJI (drone)",
+        "3C:28:6D": "DJI (drone)",
+        "40:1C:83": "DJI (drone)",
+        "40:1C:A4": "DJI (drone)",
+        "48:1C:B9": "DJI (drone)",
+        "4C:43:F6": "DJI (drone)",
+        "54:CE:7B": "DJI (drone)",
+        "58:B8:58": "DJI (drone)",
+        "60:60:1F": "DJI (drone)",
+        "62:60:1F": "DJI (drone)",
+        "68:3A:1E": "DJI (drone)",
+        "74:04:F1": "DJI (drone)",
+        "78:8A:20": "DJI (drone)",
+        "7C:60:97": "DJI (drone)",
+        "7C:C2:C6": "DJI (drone)",
+        "80:76:93": "DJI (drone)",
+        "88:29:85": "DJI (drone)",
+        "88:A4:C2": "DJI (drone)",
+        "8C:58:23": "DJI (drone)",
+        "98:DA:C4": "DJI (drone)",
+        "98:E7:43": "DJI (drone)",
+        "9C:5A:8A": "DJI (drone)",
+        "B4:1E:DC": "DJI (drone)",
+        "C8:4D:44": "DJI (drone)",
+        "CC:C5:E5": "DJI (drone)",
+        "D0:03:4B": "DJI (drone)",
+        "D4:D8:53": "DJI (drone)",
+        "E4:7A:11": "DJI (drone)",
+        "E4:7A:2C": "DJI (drone)",
+        "F4:BD:9E": "DJI (drone)",
+        "A0:14:1B": "DJI (controller)",
+        "C0:17:4D": "DJI (controller)",
+        "D8:96:85": "DJI (controller)",
+        "00:12:1C": "Parrot (drone)",
+        "00:26:7E": "Parrot (drone)",
+        "38:D2:69": "Parrot (drone)",
+        "90:3A:E6": "Parrot (drone)",
+        "A0:14:3D": "Parrot (drone)",
+        "90:03:B7": "Parrot (controller)",
+        "08:EA:40": "Autel (drone)",
+        "50:D3:7F": "Autel (drone)",
+        "5C:5F:67": "Autel (drone)",
+        "AC:EC:80": "Autel (drone)",
+        "F0:F0:02": "Autel (drone)",
+        "10:6F:3F": "Skydio (drone)",
+        "34:94:54": "Skydio (drone)",
+        "38:1D:14": "Skydio (drone)",
+        "E0:B9:4D": "Skydio (drone)",
+        "1C:BF:CE": "Yuneec (drone)",
+        "38:9F:86": "Yuneec (drone)",
+        "58:70:C6": "Yuneec (drone)",
+        "DC:44:6D": "Yuneec (drone)",
+        "08:D4:6A": "Hubsan (drone)",
+        "AC:D1:B8": "Hubsan (drone)",
+        "24:72:60": "EHang (drone)",
+        "88:1F:A1": "EHang (drone)",
+        "08:16:D5": "Goertek/DJI Tello (drone)",
+        "64:D1:54": "Ryze/DJI Tello (drone)",
+        "74:EE:2A": "FIMI (drone)",
+        "18:D7:93": "Xiaomi/FIMI (drone)",
+        "28:6C:07": "Xiaomi (drone)",
+        "24:5A:4C": "GoPro Karma (drone)",
+        "D8:96:95": "GoPro Karma (drone)",
+        "84:CC:A8": "3D Robotics (drone)",
+        "C8:2B:96": "Intel Aero (drone)",
+        "B0:41:6F": "Freefly (drone)",
+        "18:C8:E7": "Holy Stone (drone)",
+        "00:04:4B": "Ruko (drone)",
+        "E8:DE:27": "Potensic (drone)",
+        "00:1D:C1": "Draganfly (drone)",
+        "B4:A7:C6": "Airobotics (drone)",
+        "00:1A:3A": "Delair (drone)",
+        "F0:2F:74": "PowerVision (drone)",
+        "48:5F:99": "Teal Drones (drone)",
+        "B0:30:C8": "Teal Drones (drone)",
+        "B8:D5:26": "Brinc (drone)",
+        "14:18:C3": "Walkera (drone)",
+        "E4:90:7E": "ZeroTech (drone)",
+        "38:AB:41": "Wingsland (drone)",
+        "D8:80:39": "Microchip (drone)",
+        "08:3A:F2": "Espressif ESP32 (drone)",
+        "24:0A:C4": "Espressif ESP32 (drone)",
+        "24:62:AB": "Espressif ESP32 (drone)",
+        "30:AE:A4": "Espressif ESP32 (drone)",
+        "48:E7:29": "Espressif ESP32 (drone)",
+        "7C:DF:A1": "Espressif ESP32 (drone)",
+        "84:F3:EB": "Espressif ESP32 (drone)",
+        "8C:AA:B5": "Espressif ESP32 (drone)",
+        "A0:76:4E": "Espressif ESP32 (drone)",
+        "A4:CF:12": "Espressif ESP32 (drone)",
+        "AC:67:B2": "Espressif ESP32 (drone)",
+        "B4:E6:2D": "Espressif ESP32 (drone)",
+        "C0:49:EF": "Espressif ESP32 (drone)",
+        "CC:50:E3": "Espressif ESP32 (drone)",
+        "D8:BF:C0": "Espressif ESP32 (drone)",
+        "DC:54:75": "Espressif ESP32 (drone)",
+        "E0:98:06": "Espressif ESP32 (drone)",
+        "FC:F5:C4": "Espressif ESP32 (drone)",
+        "00:12:6D": "Drone platform (drone)",
+        "00:1A:11": "Drone platform (drone)",
+        "00:1D:C0": "Drone platform (drone)",
+        "00:1E:37": "Drone platform (drone)",
+        "00:7E:56": "Drone platform (drone)",
+        "00:87:31": "Drone platform (drone)",
+        "00:A0:C6": "Drone platform (drone)",
+        "04:E5:98": "Drone platform (drone)",
+        "10:76:33": "Drone platform (drone)",
+        "14:ED:BB": "Drone platform (drone)",
+        "1C:C1:DE": "Drone platform (drone)",
+        "20:D3:90": "Drone platform (drone)",
+        "24:71:89": "Drone platform (drone)",
+        "24:FC:E5": "Drone platform (drone)",
+        "28:D2:44": "Drone platform (drone)",
+        "2C:DD:0C": "Drone platform (drone)",
+        "38:01:97": "Drone platform (drone)",
+        "38:1A:52": "Drone platform (drone)",
+        "38:D5:47": "Drone platform (drone)",
+        "3C:2E:F9": "Drone platform (drone)",
+        "3C:DC:BC": "Drone platform (drone)",
+        "3C:E9:0E": "Drone platform (drone)",
+        "3C:E9:F7": "Drone platform (drone)",
+        "3C:FA:06": "Drone platform (drone)",
+        "40:F3:85": "Drone platform (drone)",
+        "44:07:0B": "Drone platform (drone)",
+        "44:4E:6D": "Drone platform (drone)",
+        "44:67:55": "Drone platform (drone)",
+        "44:D9:E7": "Drone platform (drone)",
+        "44:E6:B5": "Drone platform (drone)",
+        "48:2C:A0": "Drone platform (drone)",
+        "4C:0F:C7": "Drone platform (drone)",
+        "4C:75:25": "Drone platform (drone)",
+        "4C:D7:B6": "Drone platform (drone)",
+        "4C:E1:73": "Drone platform (drone)",
+        "50:1A:C5": "Drone platform (drone)",
+        "50:2B:73": "Drone platform (drone)",
+        "50:32:37": "Drone platform (drone)",
+        "54:10:EC": "Drone platform (drone)",
+        "54:60:09": "Drone platform (drone)",
+        "54:9F:35": "Drone platform (drone)",
+        "58:04:54": "Drone platform (drone)",
+        "58:2D:34": "Drone platform (drone)",
+        "58:44:98": "Drone platform (drone)",
+        "58:FC:DB": "Drone platform (drone)",
+        "60:AB:67": "Drone platform (drone)",
+        "64:69:4E": "Drone platform (drone)",
+        "68:C6:3A": "Drone platform (drone)",
+        "68:EB:C5": "Drone platform (drone)",
+        "6C:21:A2": "Drone platform (drone)",
+        "6C:63:9C": "Drone platform (drone)",
+        "70:2C:1F": "Drone platform (drone)",
+        "70:B3:D5": "Drone platform (drone)",
+        "78:21:84": "Drone platform (drone)",
+        "78:42:3B": "Drone platform (drone)",
+        "78:D2:94": "Drone platform (drone)",
+        "78:DD:08": "Drone platform (drone)",
+        "7C:76:35": "Drone platform (drone)",
+        "7C:83:34": "Drone platform (drone)",
+        "7C:E9:D3": "Drone platform (drone)",
+        "80:65:99": "Drone platform (drone)",
+        "84:C2:E4": "Drone platform (drone)",
+        "84:F1:47": "Drone platform (drone)",
+        "88:62:DF": "Drone platform (drone)",
+        "88:6B:0F": "Drone platform (drone)",
+        "8A:DC:96": "Drone platform (drone)",
+        "8C:4B:14": "Drone platform (drone)",
+        "8C:CE:4E": "Drone platform (drone)",
+        "90:1F:12": "Drone platform (drone)",
+        "90:6D:C7": "Drone platform (drone)",
+        "90:97:D5": "Drone platform (drone)",
+        "90:E2:02": "Drone platform (drone)",
+        "94:87:E0": "Drone platform (drone)",
+        "94:D9:B3": "Drone platform (drone)",
+        "98:30:00": "Drone platform (drone)",
+        "98:AA:FC": "Drone platform (drone)",
+        "98:B6:E9": "Drone platform (drone)",
+        "A0:1D:48": "Drone platform (drone)",
+        "A0:C5:F2": "Drone platform (drone)",
+        "A0:E4:53": "Drone platform (drone)",
+        "A4:EE:57": "Drone platform (drone)",
+        "A8:23:FE": "Drone platform (drone)",
+        "A8:BB:CF": "Drone platform (drone)",
+        "A8:E5:44": "Drone platform (drone)",
+        "AC:1F:74": "Drone platform (drone)",
+        "AC:D6:18": "Drone platform (drone)",
+        "B0:41:1D": "Drone platform (drone)",
+        "B0:4A:39": "Drone platform (drone)",
+        "B4:30:52": "Drone platform (drone)",
+        "B4:A2:EB": "Drone platform (drone)",
+        "B4:E1:C4": "Drone platform (drone)",
+        "B8:27:EB": "Drone platform (drone)",
+        "B8:94:36": "Drone platform (drone)",
+        "B8:CE:F6": "Drone platform (drone)",
+        "BC:54:36": "Drone platform (drone)",
+        "BC:A5:11": "Drone platform (drone)",
+        "C0:39:5A": "Drone platform (drone)",
+        "C4:AD:34": "Drone platform (drone)",
+        "C4:DD:57": "Drone platform (drone)",
+        "C4:F3:12": "Drone platform (drone)",
+        "CC:F4:11": "Drone platform (drone)",
+        "D0:14:11": "Drone platform (drone)",
+        "D0:27:09": "Drone platform (drone)",
+        "D0:B0:CD": "Drone platform (drone)",
+        "D0:C5:D3": "Drone platform (drone)",
+        "D4:45:E8": "Drone platform (drone)",
+        "D4:6A:6A": "Drone platform (drone)",
+        "D4:77:98": "Drone platform (drone)",
+        "D8:3B:DA": "Drone platform (drone)",
+        "D8:C0:A6": "Drone platform (drone)",
+        "DC:5E:39": "Drone platform (drone)",
+        "DC:A6:32": "Drone platform (drone)",
+        "DC:D3:21": "Drone platform (drone)",
+        "E0:B6:F5": "Drone platform (drone)",
+        "E0:CB:1D": "Drone platform (drone)",
+        "E4:54:E8": "Drone platform (drone)",
+        "E4:5F:01": "Drone platform (drone)",
+        "E8:6B:EA": "Drone platform (drone)",
+        "E8:9F:6D": "Drone platform (drone)",
+        "E8:AB:FA": "Drone platform (drone)",
+        "E8:DB:84": "Drone platform (drone)",
+        "EC:D0:9F": "Drone platform (drone)",
+        "EC:DA:3B": "Drone platform (drone)",
+        "F0:4B:3A": "Drone platform (drone)",
+        "F4:F2:6D": "Drone platform (drone)",
+        "F8:8C:21": "Drone platform (drone)",
+        "FC:3F:AB": "Drone platform (drone)"
+    },
+    "dji_ssid_models": {
+        "MAVICPRO": "Mavic Pro",
+        "MAVICPROPLATINUM": "Mavic Pro Platinum",
+        "MAVICAIR": "Mavic Air",
+        "MAVICAIR2": "Mavic Air 2",
+        "MAVICMINI": "Mavic Mini",
+        "MINI2": "Mini 2",
+        "MINI2SE": "Mini 2 SE",
+        "MINI3": "Mini 3",
+        "MINI3PRO": "Mini 3 Pro",
+        "MINI4": "Mini 4",
+        "MINI4PRO": "Mini 4 Pro",
+        "MINISE": "Mini SE",
+        "MAVIC2": "Mavic 2",
+        "MAVIC2PRO": "Mavic 2 Pro",
+        "MAVIC2ZOOM": "Mavic 2 Zoom",
+        "MAVIC2ENTERPRISE": "Mavic 2 Enterprise",
+        "MAVIC2ENTERPRISEADV": "Mavic 2 Enterprise Advanced",
+        "MAVIC3": "Mavic 3",
+        "MAVIC3CLASSIC": "Mavic 3 Classic",
+        "MAVIC3PRO": "Mavic 3 Pro",
+        "MAVIC3ENTERPRISE": "Mavic 3 Enterprise",
+        "MAVIC3MULTISPECTRAL": "Mavic 3 Multispectral",
+        "MAVIC3THERMAL": "Mavic 3 Thermal",
+        "AIR2S": "Air 2S",
+        "AIR2": "Air 2",
+        "AIR3": "Air 3",
+        "AIR3S": "Air 3S",
+        "FPV": "FPV",
+        "AVATA": "Avata",
+        "AVATA2": "Avata 2",
+        "NEO": "Neo",
+        "FLIP": "Flip",
+        "SPARK": "Spark",
+        "PHANTOM3": "Phantom 3",
+        "PHANTOM3ADV": "Phantom 3 Advanced",
+        "PHANTOM3PRO": "Phantom 3 Professional",
+        "PHANTOM3SE": "Phantom 3 SE",
+        "PHANTOM3STD": "Phantom 3 Standard",
+        "PHANTOM4": "Phantom 4",
+        "PHANTOM4ADV": "Phantom 4 Advanced",
+        "PHANTOM4PRO": "Phantom 4 Pro",
+        "PHANTOM4PROV2": "Phantom 4 Pro V2",
+        "PHANTOM4RTK": "Phantom 4 RTK",
+        "PHANTOM4MULTI": "Phantom 4 Multispectral",
+        "INSPIRE1": "Inspire 1",
+        "INSPIRE2": "Inspire 2",
+        "INSPIRE3": "Inspire 3",
+        "MATRICE30": "Matrice 30",
+        "MATRICE30T": "Matrice 30T",
+        "MATRICE300": "Matrice 300",
+        "MATRICE300RTK": "Matrice 300 RTK",
+        "MATRICE350RTK": "Matrice 350 RTK",
+        "MATRICE4": "Matrice 4",
+        "MATRICE4T": "Matrice 4T",
+        "MATRICE4E": "Matrice 4E",
+        "MATRICE600": "Matrice 600",
+        "MATRICE600PRO": "Matrice 600 Pro",
+        "MATRICE100": "Matrice 100",
+        "MATRICE200": "Matrice 200",
+        "MATRICE210": "Matrice 210",
+        "MATRICE210RTK": "Matrice 210 RTK",
+        "AGRAST10": "Agras T10",
+        "AGRAST20": "Agras T20",
+        "AGRAST20P": "Agras T20P",
+        "AGRAST25": "Agras T25",
+        "AGRAST30": "Agras T30",
+        "AGRAST40": "Agras T40",
+        "AGRAST50": "Agras T50",
+        "AGRAST60": "Agras T60",
+        "AGRASMG1": "Agras MG-1",
+        "FLYCART30": "FlyCart 30",
+        "POWER1000": "Power 1000",
+        "MAVIC4PRO": "Mavic 4 Pro",
+        "MAVIC4": "Mavic 4",
+        "NEO2": "Neo 2",
+        "AVATA360": "Avata 360",
+        "AVATA3": "Avata 3",
+        "AIR4": "Air 4",
+        "AGRAST55": "Agras T55",
+        "LITO1": "Lito 1",
+        "LITOX1": "Lito X1",
+        "MATRICE4PRO": "Matrice 4 Pro",
+        "MINI5PRO": "Mini 5 Pro"
+    },
+    "ssid_patterns": [
+        {
+            "pattern": "^RID-",
+            "manufacturer": "RemoteID",
+            "model_hint": "WiFi RemoteID broadcast"
+        },
+        {
+            "pattern": "^default-ssid$",
+            "manufacturer": "Autel",
+            "model_hint": "Autel broken RemoteID"
+        },
+        {
+            "pattern": "^DJI[-_ ]RC",
+            "manufacturer": "DJI",
+            "model_hint": "controller",
+            "is_controller": true
+        },
+        {
+            "pattern": "^DJI[-_ ]",
+            "manufacturer": "DJI",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^TELLO[-_ ]",
+            "manufacturer": "DJI/Ryze",
+            "model": "Tello"
+        },
+        {
+            "pattern": "^TELLO$",
+            "manufacturer": "DJI/Ryze",
+            "model": "Tello"
+        },
+        {
+            "pattern": "^RMTELLO",
+            "manufacturer": "DJI/Ryze",
+            "model": "Tello"
+        },
+        {
+            "pattern": "^PHANTOM[-_ ]",
+            "manufacturer": "DJI",
+            "model_hint": "Phantom"
+        },
+        {
+            "pattern": "^PHANTOM[34]",
+            "manufacturer": "DJI",
+            "model_hint": "Phantom"
+        },
+        {
+            "pattern": "^P4P[-_ ]",
+            "manufacturer": "DJI",
+            "model": "Phantom 4 Pro"
+        },
+        {
+            "pattern": "^SPARK[-_ ]",
+            "manufacturer": "DJI",
+            "model": "Spark"
+        },
+        {
+            "pattern": "^MAVIC[-_ ]",
+            "manufacturer": "DJI",
+            "model_hint": "Mavic"
+        },
+        {
+            "pattern": "^Matrice",
+            "manufacturer": "DJI",
+            "model_hint": "Matrice"
+        },
+        {
+            "pattern": "^DJI[_ ]?FPV",
+            "manufacturer": "DJI",
+            "model": "FPV"
+        },
+        {
+            "pattern": "^DJI[_ ]?AVATA",
+            "manufacturer": "DJI",
+            "model_hint": "Avata"
+        },
+        {
+            "pattern": "^DJI[_ ]?NEO",
+            "manufacturer": "DJI",
+            "model": "Neo"
+        },
+        {
+            "pattern": "^DJI[_ ]?FLIP",
+            "manufacturer": "DJI",
+            "model": "Flip"
+        },
+        {
+            "pattern": "^DJI[_ ]?MAVIC[-_ ]?4",
+            "manufacturer": "DJI",
+            "model_hint": "Mavic 4"
+        },
+        {
+            "pattern": "^DJI[_ ]?NEO[-_ ]?2",
+            "manufacturer": "DJI",
+            "model": "Neo 2"
+        },
+        {
+            "pattern": "^DJI[_ ]?AVATA[-_ ]?360",
+            "manufacturer": "DJI",
+            "model": "Avata 360"
+        },
+        {
+            "pattern": "^DJI[_ ]?AVATA[-_ ]?3",
+            "manufacturer": "DJI",
+            "model": "Avata 3"
+        },
+        {
+            "pattern": "^DJI[_ ]?AIR[-_ ]?4",
+            "manufacturer": "DJI",
+            "model": "Air 4"
+        },
+        {
+            "pattern": "^DJI[_ ]?LITO",
+            "manufacturer": "DJI",
+            "model_hint": "Lito"
+        },
+        {
+            "pattern": "^LITO[-_ ]",
+            "manufacturer": "DJI",
+            "model_hint": "Lito"
+        },
+        {
+            "pattern": "^DJI[_ ]?MINI[-_ ]?5",
+            "manufacturer": "DJI",
+            "model_hint": "Mini 5"
+        },
+        {
+            "pattern": "^INSPIRE[-_ ]",
+            "manufacturer": "DJI",
+            "model_hint": "Inspire"
+        },
+        {
+            "pattern": "^AGRAS[-_ ]",
+            "manufacturer": "DJI",
+            "model_hint": "Agras"
+        },
+        {
+            "pattern": "^FLYCART",
+            "manufacturer": "DJI",
+            "model": "FlyCart 30"
+        },
+        {
+            "pattern": "^M30[T]?[-_ ]",
+            "manufacturer": "DJI",
+            "model_hint": "Matrice 30"
+        },
+        {
+            "pattern": "^ANAFI[-_ ]?UKR",
+            "manufacturer": "Parrot",
+            "model": "Anafi UKR"
+        },
+        {
+            "pattern": "^CHUCK[-_ ]?3",
+            "manufacturer": "Parrot",
+            "model": "CHUCK 3.0",
+            "is_controller": true
+        },
+        {
+            "pattern": "^ANAFI[-_ ]",
+            "manufacturer": "Parrot",
+            "model": "Anafi"
+        },
+        {
+            "pattern": "^ANAFI$",
+            "manufacturer": "Parrot",
+            "model": "Anafi"
+        },
+        {
+            "pattern": "^BebopDrone",
+            "manufacturer": "Parrot",
+            "model": "Bebop"
+        },
+        {
+            "pattern": "^Bebop2",
+            "manufacturer": "Parrot",
+            "model": "Bebop 2"
+        },
+        {
+            "pattern": "^Bebop[-_ ]",
+            "manufacturer": "Parrot",
+            "model_hint": "Bebop"
+        },
+        {
+            "pattern": "^Disco[-_ ]",
+            "manufacturer": "Parrot",
+            "model": "Disco"
+        },
+        {
+            "pattern": "^SkyController",
+            "manufacturer": "Parrot",
+            "model_hint": "controller",
+            "is_controller": true
+        },
+        {
+            "pattern": "^Mambo[-_ ]",
+            "manufacturer": "Parrot",
+            "model": "Mambo"
+        },
+        {
+            "pattern": "^Mambo$",
+            "manufacturer": "Parrot",
+            "model": "Mambo"
+        },
+        {
+            "pattern": "^Swing[-_ ]",
+            "manufacturer": "Parrot",
+            "model": "Swing"
+        },
+        {
+            "pattern": "^RollingSpider",
+            "manufacturer": "Parrot",
+            "model": "Rolling Spider"
+        },
+        {
+            "pattern": "^JumpingSumo",
+            "manufacturer": "Parrot",
+            "model": "Jumping Sumo"
+        },
+        {
+            "pattern": "^Bluegrass",
+            "manufacturer": "Parrot",
+            "model": "Bluegrass"
+        },
+        {
+            "pattern": "^Parrot[-_ ]",
+            "manufacturer": "Parrot",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^ARDrone",
+            "manufacturer": "Parrot",
+            "model": "AR.Drone"
+        },
+        {
+            "pattern": "^AR[-_ ]?Drone",
+            "manufacturer": "Parrot",
+            "model": "AR.Drone"
+        },
+        {
+            "pattern": "^Hydrofoil",
+            "manufacturer": "Parrot",
+            "model": "Hydrofoil"
+        },
+        {
+            "pattern": "^Airborne",
+            "manufacturer": "Parrot",
+            "model": "Airborne"
+        },
+        {
+            "pattern": "^NightFury",
+            "manufacturer": "Parrot",
+            "model": "Night Fury"
+        },
+        {
+            "pattern": "^Cargo",
+            "manufacturer": "Parrot",
+            "model": "Cargo"
+        },
+        {
+            "pattern": "^Autel[-_ ]",
+            "manufacturer": "Autel",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^AutelRobotics",
+            "manufacturer": "Autel",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^EVO[-_ ]?II",
+            "manufacturer": "Autel",
+            "model_hint": "EVO II"
+        },
+        {
+            "pattern": "^EVO[-_ ]?III",
+            "manufacturer": "Autel",
+            "model_hint": "EVO III"
+        },
+        {
+            "pattern": "^EVO[-_ ]?Lite",
+            "manufacturer": "Autel",
+            "model_hint": "EVO Lite"
+        },
+        {
+            "pattern": "^EVO[-_ ]?Nano",
+            "manufacturer": "Autel",
+            "model_hint": "EVO Nano"
+        },
+        {
+            "pattern": "^EVO[-_ ]?Max",
+            "manufacturer": "Autel",
+            "model_hint": "EVO Max"
+        },
+        {
+            "pattern": "^EVO[-_ ]",
+            "manufacturer": "Autel",
+            "model_hint": "EVO"
+        },
+        {
+            "pattern": "^Dragonfish",
+            "manufacturer": "Autel",
+            "model": "Dragonfish"
+        },
+        {
+            "pattern": "^AutelSC",
+            "manufacturer": "Autel",
+            "model_hint": "controller",
+            "is_controller": true
+        },
+        {
+            "pattern": "^Skydio[-_ ]",
+            "manufacturer": "Skydio",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^SKYDIO",
+            "manufacturer": "Skydio",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^S2[-_ ]",
+            "manufacturer": "Skydio",
+            "model": "Skydio 2"
+        },
+        {
+            "pattern": "^X2[-_ ]",
+            "manufacturer": "Skydio",
+            "model": "Skydio X2"
+        },
+        {
+            "pattern": "^X10[-_ ]",
+            "manufacturer": "Skydio",
+            "model": "Skydio X10"
+        },
+        {
+            "pattern": "^X10D[-_ ]",
+            "manufacturer": "Skydio",
+            "model": "Skydio X10D"
+        },
+        {
+            "pattern": "^R10[-_ ]",
+            "manufacturer": "Skydio",
+            "model": "Skydio R10"
+        },
+        {
+            "pattern": "^F10[-_ ]",
+            "manufacturer": "Skydio",
+            "model": "Skydio F10"
+        },
+        {
+            "pattern": "^Yuneec",
+            "manufacturer": "Yuneec",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^YUNEEC",
+            "manufacturer": "Yuneec",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Typhoon[-_ ]?H",
+            "manufacturer": "Yuneec",
+            "model_hint": "Typhoon H"
+        },
+        {
+            "pattern": "^Typhoon[-_ ]",
+            "manufacturer": "Yuneec",
+            "model_hint": "Typhoon"
+        },
+        {
+            "pattern": "^Mantis[-_ ]",
+            "manufacturer": "Yuneec",
+            "model": "Mantis"
+        },
+        {
+            "pattern": "^MantisQ",
+            "manufacturer": "Yuneec",
+            "model": "Mantis Q"
+        },
+        {
+            "pattern": "^MantisG",
+            "manufacturer": "Yuneec",
+            "model": "Mantis G"
+        },
+        {
+            "pattern": "^Breeze[-_ ]",
+            "manufacturer": "Yuneec",
+            "model": "Breeze 4K"
+        },
+        {
+            "pattern": "^YuneecST10",
+            "manufacturer": "Yuneec",
+            "model_hint": "controller",
+            "is_controller": true
+        },
+        {
+            "pattern": "^Q500",
+            "manufacturer": "Yuneec",
+            "model": "Q500"
+        },
+        {
+            "pattern": "^H520",
+            "manufacturer": "Yuneec",
+            "model": "H520"
+        },
+        {
+            "pattern": "^H850",
+            "manufacturer": "Yuneec",
+            "model": "H850"
+        },
+        {
+            "pattern": "^Hubsan[-_ ]",
+            "manufacturer": "Hubsan",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^HUBSAN",
+            "manufacturer": "Hubsan",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^H501",
+            "manufacturer": "Hubsan",
+            "model": "H501S"
+        },
+        {
+            "pattern": "^H117S",
+            "manufacturer": "Hubsan",
+            "model": "Zino"
+        },
+        {
+            "pattern": "^ZINO[-_ ]?PRO",
+            "manufacturer": "Hubsan",
+            "model": "Zino Pro"
+        },
+        {
+            "pattern": "^ZINO[-_ ]?MINI",
+            "manufacturer": "Hubsan",
+            "model": "Zino Mini Pro"
+        },
+        {
+            "pattern": "^ZINO",
+            "manufacturer": "Hubsan",
+            "model": "Zino"
+        },
+        {
+            "pattern": "^BlackHawk",
+            "manufacturer": "Hubsan",
+            "model_hint": "BlackHawk"
+        },
+        {
+            "pattern": "^ACE[-_ ]?PRO",
+            "manufacturer": "Hubsan",
+            "model": "ACE Pro"
+        },
+        {
+            "pattern": "^ACE[-_ ]?SE",
+            "manufacturer": "Hubsan",
+            "model": "ACE SE"
+        },
+        {
+            "pattern": "^HUBSAN[-_ ]?ACE",
+            "manufacturer": "Hubsan",
+            "model_hint": "ACE"
+        },
+        {
+            "pattern": "^HolyStone",
+            "manufacturer": "Holy Stone",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^HS\\d{3}",
+            "manufacturer": "Holy Stone",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^HS720",
+            "manufacturer": "Holy Stone",
+            "model": "HS720"
+        },
+        {
+            "pattern": "^HS710",
+            "manufacturer": "Holy Stone",
+            "model": "HS710"
+        },
+        {
+            "pattern": "^HS175",
+            "manufacturer": "Holy Stone",
+            "model": "HS175"
+        },
+        {
+            "pattern": "^HS510",
+            "manufacturer": "Holy Stone",
+            "model": "HS510"
+        },
+        {
+            "pattern": "^HS110",
+            "manufacturer": "Holy Stone",
+            "model": "HS110"
+        },
+        {
+            "pattern": "^HS360",
+            "manufacturer": "Holy Stone",
+            "model": "HS360"
+        },
+        {
+            "pattern": "^HS600",
+            "manufacturer": "Holy Stone",
+            "model": "HS600"
+        },
+        {
+            "pattern": "^HS440",
+            "manufacturer": "Holy Stone",
+            "model": "HS440"
+        },
+        {
+            "pattern": "^HS100",
+            "manufacturer": "Holy Stone",
+            "model": "HS100"
+        },
+        {
+            "pattern": "^HolySton",
+            "manufacturer": "Holy Stone",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^FIMI[-_ ]",
+            "manufacturer": "FIMI",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^X8SE",
+            "manufacturer": "FIMI",
+            "model": "X8SE"
+        },
+        {
+            "pattern": "^X8[-_ ]?MINI",
+            "manufacturer": "FIMI",
+            "model": "X8 Mini"
+        },
+        {
+            "pattern": "^X8[-_ ]?PRO",
+            "manufacturer": "FIMI",
+            "model": "X8 Pro"
+        },
+        {
+            "pattern": "^FIMI[-_ ]?MANTA",
+            "manufacturer": "FIMI",
+            "model": "Manta"
+        },
+        {
+            "pattern": "^FIMI[-_ ]?A3",
+            "manufacturer": "FIMI",
+            "model": "A3"
+        },
+        {
+            "pattern": "^XIAOMI[-_ ]?MI[-_ ]?DRONE",
+            "manufacturer": "Xiaomi/FIMI",
+            "model": "Mi Drone 4K"
+        },
+        {
+            "pattern": "^SoloLink",
+            "manufacturer": "3D Robotics",
+            "model": "Solo"
+        },
+        {
+            "pattern": "^3DR[-_ ]",
+            "manufacturer": "3D Robotics",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Solo[-_ ]",
+            "manufacturer": "3D Robotics",
+            "model": "Solo"
+        },
+        {
+            "pattern": "^Karma[-_ ]",
+            "manufacturer": "GoPro",
+            "model": "Karma"
+        },
+        {
+            "pattern": "^GP[-_ ]?Karma",
+            "manufacturer": "GoPro",
+            "model": "Karma"
+        },
+        {
+            "pattern": "^HOVERAir",
+            "manufacturer": "Zero Zero Robotics",
+            "model": "HOVERAir X1"
+        },
+        {
+            "pattern": "^V-?Coptr",
+            "manufacturer": "Zero Zero Robotics",
+            "model": "V-Coptr Falcon"
+        },
+        {
+            "pattern": "^HOVER[-_ ]?AIR",
+            "manufacturer": "Zero Zero Robotics",
+            "model": "HOVERAir X1"
+        },
+        {
+            "pattern": "^ZeroZero",
+            "manufacturer": "Zero Zero Robotics",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^HOVERX1",
+            "manufacturer": "Zero Zero Robotics",
+            "model": "HOVERAir X1"
+        },
+        {
+            "pattern": "^Potensic",
+            "manufacturer": "Potensic",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^POTENSIC",
+            "manufacturer": "Potensic",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Dreamer[-_ ]",
+            "manufacturer": "Potensic",
+            "model_hint": "Dreamer"
+        },
+        {
+            "pattern": "^ATOM[-_ ]?SE",
+            "manufacturer": "Potensic",
+            "model": "Atom SE"
+        },
+        {
+            "pattern": "^ATOM[-_ ]",
+            "manufacturer": "Potensic",
+            "model": "Atom"
+        },
+        {
+            "pattern": "^Ruko[-_ ]",
+            "manufacturer": "Ruko",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^RUKO",
+            "manufacturer": "Ruko",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^F11[-_ ]?PRO",
+            "manufacturer": "Ruko",
+            "model": "F11 Pro"
+        },
+        {
+            "pattern": "^F11GIM",
+            "manufacturer": "Ruko",
+            "model": "F11GIM"
+        },
+        {
+            "pattern": "^U11[-_ ]?PRO",
+            "manufacturer": "Ruko",
+            "model": "U11 Pro"
+        },
+        {
+            "pattern": "^SJRC[-_ ]",
+            "manufacturer": "SJRC",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^SJRC",
+            "manufacturer": "SJRC",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^F[57][-_ ]?PRO",
+            "manufacturer": "SJRC",
+            "model_hint": "F series"
+        },
+        {
+            "pattern": "^F22[-_ ]?4",
+            "manufacturer": "SJRC",
+            "model": "F22 4 Pro"
+        },
+        {
+            "pattern": "^JJRC[-_ ]",
+            "manufacturer": "JJRC",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^JJRC",
+            "manufacturer": "JJRC",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^X12[-_ ]",
+            "manufacturer": "JJRC",
+            "model": "X12"
+        },
+        {
+            "pattern": "^Eachine",
+            "manufacturer": "Eachine",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^EACHINE",
+            "manufacturer": "Eachine",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^EX\\d",
+            "manufacturer": "Eachine",
+            "model_hint": "EX series"
+        },
+        {
+            "pattern": "^E520",
+            "manufacturer": "Eachine",
+            "model": "E520"
+        },
+        {
+            "pattern": "^E58",
+            "manufacturer": "Eachine",
+            "model": "E58"
+        },
+        {
+            "pattern": "^SNAPTAIN",
+            "manufacturer": "Snaptain",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Contixo[-_ ]",
+            "manufacturer": "Contixo",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^CONTIXO",
+            "manufacturer": "Contixo",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Syma[-_ ]",
+            "manufacturer": "Syma",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^SYMA",
+            "manufacturer": "Syma",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^X5[SU]W",
+            "manufacturer": "Syma",
+            "model_hint": "X5 series"
+        },
+        {
+            "pattern": "^X8PRO",
+            "manufacturer": "Syma",
+            "model": "X8 Pro"
+        },
+        {
+            "pattern": "^MJX[-_ ]",
+            "manufacturer": "MJX",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^BUGS[-_ ]?\\d",
+            "manufacturer": "MJX",
+            "model_hint": "Bugs"
+        },
+        {
+            "pattern": "^Cheerson",
+            "manufacturer": "Cheerson",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^CX[-_ ]?\\d",
+            "manufacturer": "Cheerson",
+            "model_hint": "CX series"
+        },
+        {
+            "pattern": "^WLtoys",
+            "manufacturer": "WLtoys",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^VISUO",
+            "manufacturer": "Visuo",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^XS\\d{3}",
+            "manufacturer": "Visuo",
+            "model_hint": "XS series"
+        },
+        {
+            "pattern": "^DEERC[-_ ]",
+            "manufacturer": "DEERC",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^DEERC",
+            "manufacturer": "DEERC",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^D\\d{2}[-_ ]",
+            "manufacturer": "DEERC",
+            "model_hint": "D series"
+        },
+        {
+            "pattern": "^SIMREX",
+            "manufacturer": "SIMREX",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Loolinn",
+            "manufacturer": "Loolinn",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Tomzon",
+            "manufacturer": "Tomzon",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^NEHEME",
+            "manufacturer": "NEHEME",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^NH\\d{3}",
+            "manufacturer": "NEHEME",
+            "model_hint": "NH series"
+        },
+        {
+            "pattern": "^Dragon[-_ ]?Touch",
+            "manufacturer": "Dragon Touch",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^ATTOP",
+            "manufacturer": "ATTOP",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^le[-_ ]?idea",
+            "manufacturer": "le-idea",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^IDEA\\d",
+            "manufacturer": "le-idea",
+            "model_hint": "IDEA series"
+        },
+        {
+            "pattern": "^Bwine[-_ ]",
+            "manufacturer": "Bwine",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^BWINE",
+            "manufacturer": "Bwine",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^AOVO[-_ ]",
+            "manufacturer": "AOVO",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^BETAFPV",
+            "manufacturer": "BetaFPV",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^BetaFPV",
+            "manufacturer": "BetaFPV",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Beta\\d{2}",
+            "manufacturer": "BetaFPV",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^iFlight",
+            "manufacturer": "iFlight",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^IFLIGHT",
+            "manufacturer": "iFlight",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Nazgul",
+            "manufacturer": "iFlight",
+            "model_hint": "Nazgul"
+        },
+        {
+            "pattern": "^Chimera",
+            "manufacturer": "iFlight",
+            "model_hint": "Chimera"
+        },
+        {
+            "pattern": "^GEPRC",
+            "manufacturer": "GEPRC",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^GepRC",
+            "manufacturer": "GEPRC",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^CineLog",
+            "manufacturer": "GEPRC",
+            "model_hint": "CineLog"
+        },
+        {
+            "pattern": "^DarkStar",
+            "manufacturer": "GEPRC",
+            "model_hint": "DarkStar"
+        },
+        {
+            "pattern": "^EMAX[-_ ]",
+            "manufacturer": "Emax",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^TinyHawk",
+            "manufacturer": "Emax",
+            "model_hint": "TinyHawk"
+        },
+        {
+            "pattern": "^Walksnail",
+            "manufacturer": "Caddx",
+            "model": "Walksnail VTX"
+        },
+        {
+            "pattern": "^Caddx[-_ ]",
+            "manufacturer": "Caddx",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^HDZero",
+            "manufacturer": "HDZero",
+            "model_hint": "VTX"
+        },
+        {
+            "pattern": "^Fatshark",
+            "manufacturer": "FatShark",
+            "model_hint": "goggles",
+            "is_controller": true
+        },
+        {
+            "pattern": "^FAT[-_ ]?SHARK",
+            "manufacturer": "FatShark",
+            "model_hint": "goggles",
+            "is_controller": true
+        },
+        {
+            "pattern": "^TBS[-_ ]",
+            "manufacturer": "Team BlackSheep",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^CROSSFIRE",
+            "manufacturer": "Team BlackSheep",
+            "model": "Crossfire",
+            "is_controller": true
+        },
+        {
+            "pattern": "^Diatone",
+            "manufacturer": "Diatone",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^DIATONE",
+            "manufacturer": "Diatone",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Flywoo",
+            "manufacturer": "Flywoo",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^FLYWOO",
+            "manufacturer": "Flywoo",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^HappyModel",
+            "manufacturer": "HappyModel",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^HAPPYMODEL",
+            "manufacturer": "HappyModel",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Mobula",
+            "manufacturer": "HappyModel",
+            "model_hint": "Mobula"
+        },
+        {
+            "pattern": "^Crux",
+            "manufacturer": "HappyModel",
+            "model_hint": "Crux"
+        },
+        {
+            "pattern": "^SpeedyBee",
+            "manufacturer": "SpeedyBee",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^FreeFly",
+            "manufacturer": "Freefly",
+            "model_hint": "Alta"
+        },
+        {
+            "pattern": "^Freefly",
+            "manufacturer": "Freefly",
+            "model_hint": "Alta"
+        },
+        {
+            "pattern": "^ALTA[-_ ]",
+            "manufacturer": "Freefly",
+            "model_hint": "Alta"
+        },
+        {
+            "pattern": "^ASTRO[-_ ]?MAX",
+            "manufacturer": "Freefly",
+            "model": "Astro Max"
+        },
+        {
+            "pattern": "^ASTRO[-_ ]",
+            "manufacturer": "Freefly",
+            "model": "Astro"
+        },
+        {
+            "pattern": "^WingtraOne",
+            "manufacturer": "Wingtra",
+            "model": "WingtraOne"
+        },
+        {
+            "pattern": "^Wingtra",
+            "manufacturer": "Wingtra",
+            "model_hint": "WingtraOne"
+        },
+        {
+            "pattern": "^senseFly",
+            "manufacturer": "AgEagle (senseFly)",
+            "model_hint": "eBee"
+        },
+        {
+            "pattern": "^SENSEFLY",
+            "manufacturer": "AgEagle (senseFly)",
+            "model_hint": "eBee"
+        },
+        {
+            "pattern": "^eBee",
+            "manufacturer": "AgEagle (senseFly)",
+            "model_hint": "eBee"
+        },
+        {
+            "pattern": "^Delair",
+            "manufacturer": "Delair",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^DELAIR",
+            "manufacturer": "Delair",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^UX11",
+            "manufacturer": "Delair",
+            "model": "UX11"
+        },
+        {
+            "pattern": "^DT26",
+            "manufacturer": "Delair",
+            "model": "DT26"
+        },
+        {
+            "pattern": "^MicroDrone",
+            "manufacturer": "MicroDrones",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^md4[-_ ]",
+            "manufacturer": "MicroDrones",
+            "model_hint": "md4"
+        },
+        {
+            "pattern": "^mdMapper",
+            "manufacturer": "MicroDrones",
+            "model": "mdMapper"
+        },
+        {
+            "pattern": "^Trinity[-_ ]?F9",
+            "manufacturer": "Quantum-Systems",
+            "model": "Trinity F90+"
+        },
+        {
+            "pattern": "^Vector[-_ ]",
+            "manufacturer": "Quantum-Systems",
+            "model": "Vector"
+        },
+        {
+            "pattern": "^Quantum[-_ ]?Sys",
+            "manufacturer": "Quantum-Systems",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Wingcopter",
+            "manufacturer": "Wingcopter",
+            "model_hint": "198"
+        },
+        {
+            "pattern": "^Percepto",
+            "manufacturer": "Percepto",
+            "model": "AIM"
+        },
+        {
+            "pattern": "^Airobotics",
+            "manufacturer": "Airobotics",
+            "model": "Optimus"
+        },
+        {
+            "pattern": "^Elios[-_ ]?[23]?",
+            "manufacturer": "Flyability",
+            "model_hint": "Elios"
+        },
+        {
+            "pattern": "^Flyability",
+            "manufacturer": "Flyability",
+            "model_hint": "Elios"
+        },
+        {
+            "pattern": "^FLIR[-_ ]",
+            "manufacturer": "Teledyne FLIR",
+            "model_hint": "SkyRanger"
+        },
+        {
+            "pattern": "^SkyRanger",
+            "manufacturer": "Teledyne FLIR",
+            "model_hint": "SkyRanger"
+        },
+        {
+            "pattern": "^SIRAS",
+            "manufacturer": "Teledyne FLIR",
+            "model": "SIRAS"
+        },
+        {
+            "pattern": "^Draganfl",
+            "manufacturer": "Draganfly",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^DRAGANFLY",
+            "manufacturer": "Draganfly",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Commander[-_ ]?3",
+            "manufacturer": "Draganfly",
+            "model": "Commander 3XL"
+        },
+        {
+            "pattern": "^Quantix",
+            "manufacturer": "Draganfly",
+            "model": "Quantix Mapper"
+        },
+        {
+            "pattern": "^InspiredFlight",
+            "manufacturer": "Inspired Flight",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^IF750",
+            "manufacturer": "Inspired Flight",
+            "model": "IF750"
+        },
+        {
+            "pattern": "^IF1200",
+            "manufacturer": "Inspired Flight",
+            "model": "IF1200A"
+        },
+        {
+            "pattern": "^IF800",
+            "manufacturer": "Inspired Flight",
+            "model": "IF800"
+        },
+        {
+            "pattern": "^HarrisAerial",
+            "manufacturer": "Harris Aerial",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Carrier[-_ ]?H",
+            "manufacturer": "Harris Aerial",
+            "model_hint": "Carrier"
+        },
+        {
+            "pattern": "^Censys",
+            "manufacturer": "Censys Technologies",
+            "model": "Sentaero"
+        },
+        {
+            "pattern": "^Sentaero",
+            "manufacturer": "Censys Technologies",
+            "model": "Sentaero"
+        },
+        {
+            "pattern": "^Brinc[-_ ]",
+            "manufacturer": "Brinc",
+            "model_hint": "Lemur"
+        },
+        {
+            "pattern": "^BRINC",
+            "manufacturer": "Brinc",
+            "model_hint": "Lemur"
+        },
+        {
+            "pattern": "^Lemur[-_ ]?[2S]",
+            "manufacturer": "Brinc",
+            "model_hint": "Lemur"
+        },
+        {
+            "pattern": "^Responder[-_ ]",
+            "manufacturer": "Brinc",
+            "model": "Responder"
+        },
+        {
+            "pattern": "^Guardian[-_ ]",
+            "manufacturer": "Brinc",
+            "model": "Guardian"
+        },
+        {
+            "pattern": "^TEAL[-_ ]",
+            "manufacturer": "Teal Drones",
+            "model_hint": "Golden Eagle"
+        },
+        {
+            "pattern": "^GoldenEagle",
+            "manufacturer": "Teal Drones",
+            "model": "Golden Eagle"
+        },
+        {
+            "pattern": "^Vantage[-_ ]",
+            "manufacturer": "Vantage Robotics",
+            "model": "Vesper"
+        },
+        {
+            "pattern": "^Vesper[-_ ]",
+            "manufacturer": "Vantage Robotics",
+            "model": "Vesper"
+        },
+        {
+            "pattern": "^Puma[-_ ]?[A3]",
+            "manufacturer": "AeroVironment",
+            "model_hint": "Puma"
+        },
+        {
+            "pattern": "^Switchblade",
+            "manufacturer": "AeroVironment",
+            "model_hint": "Switchblade"
+        },
+        {
+            "pattern": "^AVINC",
+            "manufacturer": "AeroVironment",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^InstantEye",
+            "manufacturer": "Textron Systems",
+            "model": "InstantEye"
+        },
+        {
+            "pattern": "^Zipline",
+            "manufacturer": "Zipline",
+            "model_hint": "delivery"
+        },
+        {
+            "pattern": "^ZIPLINE",
+            "manufacturer": "Zipline",
+            "model_hint": "delivery"
+        },
+        {
+            "pattern": "^Joby[-_ ]",
+            "manufacturer": "Joby Aviation",
+            "model_hint": "S4"
+        },
+        {
+            "pattern": "^JOBY",
+            "manufacturer": "Joby Aviation",
+            "model_hint": "S4"
+        },
+        {
+            "pattern": "^Wisk[-_ ]",
+            "manufacturer": "Wisk Aero",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^WISK",
+            "manufacturer": "Wisk Aero",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^VOLANSI",
+            "manufacturer": "Volansi",
+            "model_hint": "delivery"
+        },
+        {
+            "pattern": "^Matternet",
+            "manufacturer": "Matternet",
+            "model_hint": "M2"
+        },
+        {
+            "pattern": "^MATTERNET",
+            "manufacturer": "Matternet",
+            "model_hint": "M2"
+        },
+        {
+            "pattern": "^Wing[-_ ]?Delivery",
+            "manufacturer": "Wing (Alphabet)",
+            "model_hint": "delivery"
+        },
+        {
+            "pattern": "^XAG[-_ ]",
+            "manufacturer": "XAG",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^XAG$",
+            "manufacturer": "XAG",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^XP2020",
+            "manufacturer": "XAG",
+            "model": "XP 2020"
+        },
+        {
+            "pattern": "^P100",
+            "manufacturer": "XAG",
+            "model": "P100"
+        },
+        {
+            "pattern": "^V40",
+            "manufacturer": "XAG",
+            "model": "V40"
+        },
+        {
+            "pattern": "^Kespry",
+            "manufacturer": "Kespry",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^PrecisionHawk",
+            "manufacturer": "PrecisionHawk",
+            "model_hint": "Lancaster"
+        },
+        {
+            "pattern": "^Lancaster",
+            "manufacturer": "PrecisionHawk",
+            "model": "Lancaster"
+        },
+        {
+            "pattern": "^DroneDeploy",
+            "manufacturer": "DroneDeploy",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^PRODRONE",
+            "manufacturer": "Prodrone",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^PD6B",
+            "manufacturer": "Prodrone",
+            "model": "PD6B-AW"
+        },
+        {
+            "pattern": "^ACSL[-_ ]",
+            "manufacturer": "ACSL",
+            "model_hint": "SOTEN"
+        },
+        {
+            "pattern": "^SOTEN",
+            "manufacturer": "ACSL",
+            "model": "SOTEN"
+        },
+        {
+            "pattern": "^Doosan[-_ ]",
+            "manufacturer": "Doosan Mobility",
+            "model_hint": "DS30"
+        },
+        {
+            "pattern": "^Evolve[-_ ]?2",
+            "manufacturer": "XDynamics",
+            "model": "Evolve 2"
+        },
+        {
+            "pattern": "^XDynamics",
+            "manufacturer": "XDynamics",
+            "model_hint": "Evolve"
+        },
+        {
+            "pattern": "^PowerEgg",
+            "manufacturer": "PowerVision",
+            "model": "PowerEgg X"
+        },
+        {
+            "pattern": "^PowerVision",
+            "manufacturer": "PowerVision",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^PowerEye",
+            "manufacturer": "PowerVision",
+            "model": "PowerEye"
+        },
+        {
+            "pattern": "^Volatus",
+            "manufacturer": "Volatus Aerospace",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^InDro[-_ ]",
+            "manufacturer": "InDro Robotics",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^ImpossibleAero",
+            "manufacturer": "Impossible Aerospace",
+            "model_hint": "US-1"
+        },
+        {
+            "pattern": "^US[-_ ]?1[-_ ]",
+            "manufacturer": "Impossible Aerospace",
+            "model": "US-1"
+        },
+        {
+            "pattern": "^Herelink",
+            "manufacturer": "CubePilot",
+            "model_hint": "Herelink GCS",
+            "is_controller": true
+        },
+        {
+            "pattern": "^CubePilot",
+            "manufacturer": "CubePilot",
+            "model_hint": "controller",
+            "is_controller": true
+        },
+        {
+            "pattern": "^ArduPilot",
+            "manufacturer": "ArduPilot",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^PX4[-_ ]",
+            "manufacturer": "PX4/Dronecode",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^QGroundControl",
+            "manufacturer": "PX4/Dronecode",
+            "model_hint": "GCS",
+            "is_controller": true
+        },
+        {
+            "pattern": "^MissionPlanner",
+            "manufacturer": "ArduPilot",
+            "model_hint": "GCS",
+            "is_controller": true
+        },
+        {
+            "pattern": "^ModalAI",
+            "manufacturer": "ModalAI",
+            "model_hint": "Sentinel"
+        },
+        {
+            "pattern": "^MODALAI",
+            "manufacturer": "ModalAI",
+            "model_hint": "Sentinel"
+        },
+        {
+            "pattern": "^Sentinel[-_ ]",
+            "manufacturer": "ModalAI",
+            "model": "Sentinel"
+        },
+        {
+            "pattern": "^VOXL[-_ ]",
+            "manufacturer": "ModalAI",
+            "model_hint": "VOXL"
+        },
+        {
+            "pattern": "^Cetus[-_ ]?Pro",
+            "manufacturer": "BetaFPV",
+            "model": "Cetus Pro"
+        },
+        {
+            "pattern": "^Cetus[-_ ]?X",
+            "manufacturer": "BetaFPV",
+            "model": "Cetus X"
+        },
+        {
+            "pattern": "^Cetus[-_ ]",
+            "manufacturer": "BetaFPV",
+            "model_hint": "Cetus"
+        },
+        {
+            "pattern": "^Meteor[_ ]?[67]",
+            "manufacturer": "BetaFPV",
+            "model_hint": "Meteor"
+        },
+        {
+            "pattern": "^Air65",
+            "manufacturer": "BetaFPV",
+            "model": "Air65"
+        },
+        {
+            "pattern": "^MARK5",
+            "manufacturer": "GEPRC",
+            "model": "Mark5"
+        },
+        {
+            "pattern": "^Explorer[-_ ]?LR",
+            "manufacturer": "Flywoo",
+            "model": "Explorer LR"
+        },
+        {
+            "pattern": "^EHang",
+            "manufacturer": "EHang",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^EHANG",
+            "manufacturer": "EHang",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^EH216",
+            "manufacturer": "EHang",
+            "model": "EH216"
+        },
+        {
+            "pattern": "^Walkera[-_ ]",
+            "manufacturer": "Walkera",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^WALKERA",
+            "manufacturer": "Walkera",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Vitus",
+            "manufacturer": "Walkera",
+            "model": "Vitus"
+        },
+        {
+            "pattern": "^ZeroTech",
+            "manufacturer": "ZeroTech",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^ZEROTECH",
+            "manufacturer": "ZeroTech",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Dobby",
+            "manufacturer": "ZeroTech",
+            "model": "Dobby"
+        },
+        {
+            "pattern": "^Wingsland[-_ ]",
+            "manufacturer": "Wingsland",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^WINGSLAND",
+            "manufacturer": "Wingsland",
+            "model_hint": "generic"
+        },
+        {
+            "pattern": "^Autel[-_ ]?Alpha",
+            "manufacturer": "Autel",
+            "model": "Alpha"
+        },
+        {
+            "pattern": "^Autel[-_ ]?Titan",
+            "manufacturer": "Autel",
+            "model": "Titan"
+        },
+        {
+            "pattern": "^EVO[-_ ]?II[-_ ]?V3",
+            "manufacturer": "Autel",
+            "model_hint": "EVO II V3"
+        },
+        {
+            "pattern": "^DJI[_ ]?AGRAS[-_ ]?T55",
+            "manufacturer": "DJI",
+            "model": "Agras T55"
+        },
+        {
+            "pattern": "^DJI[_ ]?MATRICE[-_ ]?4[-_ ]?PRO",
+            "manufacturer": "DJI",
+            "model": "Matrice 4 Pro"
+        }
+    ]
+}

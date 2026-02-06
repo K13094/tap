@@ -1,0 +1,47 @@
+[Unit]
+Description=nozyme-tap WiFi RemoteID Drone Detection
+After=network.target
+Wants=network.target
+StartLimitIntervalSec=300
+StartLimitBurst=10
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/tap
+ExecStart=/home/tap/venv/bin/python -m nozyme_tap --config /home/tap/nozyme_tap/tap_config.json
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=nozyme-tap
+
+# Point tshark temp files to tmpfs (no SD card writes)
+Environment=PYTHONUNBUFFERED=1
+Environment=TMPDIR=/tmp/nozyme
+
+# Verify config exists before starting
+ExecStartPre=/usr/bin/test -f /home/tap/nozyme_tap/tap_config.json
+# Create tmpfs working directory and clean stale pcapng files from previous runs
+ExecStartPre=/bin/mkdir -p /tmp/nozyme
+ExecStartPre=/bin/sh -c 'rm -f /tmp/nozyme/*.pcapng 2>/dev/null || true'
+
+# Memory limit: kill and restart if process exceeds 512MB
+MemoryMax=512M
+
+# Journal size limits: cap per-service log retention
+LogRateLimitIntervalSec=30
+LogRateLimitBurst=200
+
+# Hardening (root required for monitor mode + netlink, but restrict where possible)
+ProtectSystem=full
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+PrivateTmp=false
+NoNewPrivileges=false
+
+[Install]
+WantedBy=multi-user.target
