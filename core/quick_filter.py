@@ -80,10 +80,11 @@ def _ensure_patterns():
     _SSID_TRIGGERS = (
         # Protocol / generic RemoteID
         "RID-", "default-ssid", "remoteid",
+        "DroneID", "DroneBeacon", "Dronetag",
         # DJI (including new models)
         "DJI", "Tello", "TELLO", "MAVIC", "PHANTOM", "INSPIRE",
         "MATRICE", "AGRAS", "FLYCART", "AVATA", "LITO", "FLIP",
-        "FlightHub",
+        "FlightHub", "FC200", "FC40", "DOCK",
         # Parrot
         "ANAFI", "ANAFIThermal", "ANAFIUsa", "ANAFIAi",
         "Parrot", "DISCO", "Bebop", "SkyController",
@@ -108,7 +109,14 @@ def _ensure_patterns():
         "Syma", "Snaptain", "Contixo", "Force1", "FORCE1", "Ryze",
         "DEERC", "SIMREX", "Tomzon", "NEHEME", "ATTOP",
         "AOVO", "HOVERAir", "HOVER", "Loolinn",
-        "Dragon Touch",
+        "Dragon Touch", "SKYVIPER", "SkyViper", "Propel", "SkyRider",
+        "EXO", "Flytrex",
+        # Generic WiFi drone SSIDs
+        "FPV_WIFI", "FPV-WIFI", "WiFi-UFO", "WiFiUFO",
+        "WiFi-FPV", "WiFiFPV", "RCFPV",
+        "YD-UFO", "XBM-", "360 Flight", "360Flight",
+        # Antigravity (Insta360)
+        "Antigravity",
         # Enterprise / industrial
         "Wing", "EHang", "Matternet", "Zipline", "Joby",
         "Wisk", "Volansi", "Wingtra", "senseFly", "SENSEFLY", "Delair",
@@ -128,8 +136,9 @@ def _ensure_patterns():
         "InstantEye",
         # DIY / open-source
         "ESP-DRONE", "PixRacer", "QGroundControl", "MissionPlanner",
+        "SoloLink",
         # Additional manufacturers
-        "Walkera", "Vitus", "ZeroTech", "Dobby",
+        "Walkera", "Vitus", "ZeroTech", "Dobby", "ZeroZero",
         "Wingsland", "XDynamics", "Evolve",
         "Volatus", "InDro", "Herelink", "CubePilot",
         "Kespry", "Lancaster", "XAG",

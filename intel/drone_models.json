@@ -1,5 +1,5 @@
 {
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "Drone manufacturer/model database for nozyme enrichment. Covers consumer, prosumer, enterprise, FPV, agricultural, delivery, industrial, survey, and public-safety drones. OUI database includes IEEE-confirmed manufacturer blocks, observed product OUIs, and Espressif ESP32 module OUIs for FPV/DIY drone detection.",
     "serial_prefixes": {
         "1581F0A": {
@@ -565,6 +565,26 @@
         "1581F20": {
             "manufacturer": "DJI",
             "model": "Mini 5 Pro"
+        },
+        "1581F3J": {
+            "manufacturer": "DJI",
+            "model": "Agras T70"
+        },
+        "1581F3K": {
+            "manufacturer": "DJI",
+            "model": "Agras T100"
+        },
+        "1581F7K": {
+            "manufacturer": "DJI",
+            "model": "Matrice 400"
+        },
+        "1581F7L": {
+            "manufacturer": "DJI",
+            "model": "Matrice 4D"
+        },
+        "1581F7M": {
+            "manufacturer": "DJI",
+            "model": "Matrice 4TD"
         }
     },
     "dji_model_codes": {
@@ -629,7 +649,13 @@
         "F7J": "Matrice 4 Pro",
         "F4A": "Lito 1",
         "F4B": "Lito X1",
-        "F20": "Mini 5 Pro"
+        "F20": "Mini 5 Pro",
+        "F3J": "Agras T70",
+        "F3K": "Agras T100",
+        "F7K": "Matrice 400",
+        "F7L": "Matrice 4D",
+        "F7M": "Matrice 4TD",
+        "FCB": "FlyCart 100"
     },
     "oui_map": {
         "04:A8:5A": "DJI (drone)",
@@ -882,7 +908,8 @@
         "84:83:19": "Hangzhou Zero Zero Technology - ZeroTech Dobby (drone)",
         "00:1A:F9": "AeroVironment - Puma/Switchblade UAS (drone)",
         "70:A6:6A": "Prox Dynamics AS - Black Hornet nano drone (drone)",
-        "2C:4D:79": "Weifang Goertek Electronics - DJI Tello (drone)"
+        "2C:4D:79": "Weifang Goertek Electronics - DJI Tello (drone)",
+        "C8:63:14": "Zero Zero Robotics / HOVERAir (drone)"
     },
     "dji_ssid_models": {
         "MAVICPRO": "Mavic Pro",
@@ -967,7 +994,14 @@
         "LITO1": "Lito 1",
         "LITOX1": "Lito X1",
         "MATRICE4PRO": "Matrice 4 Pro",
-        "MINI5PRO": "Mini 5 Pro"
+        "MINI5PRO": "Mini 5 Pro",
+        "AGRAST70": "Agras T70",
+        "AGRAST100": "Agras T100",
+        "FLYCART100": "FlyCart 100",
+        "MATRICE400": "Matrice 400",
+        "MATRICE4D": "Matrice 4D",
+        "MATRICE4TD": "Matrice 4TD",
+        "DOCK3": "Dock 3"
     },
     "ssid_patterns": [
         {
@@ -2656,6 +2690,146 @@
             "pattern": "^FlightHub",
             "manufacturer": "DJI",
             "model_hint": "FlightHub"
+        },
+        {
+            "pattern": "^FC200[_-]",
+            "manufacturer": "DJI",
+            "model": "Phantom 2 Vision camera"
+        },
+        {
+            "pattern": "^FC40[_-]",
+            "manufacturer": "DJI",
+            "model": "Phantom FC40 camera"
+        },
+        {
+            "pattern": "^DJI[_ ]?AGRAS[-_ ]?T70",
+            "manufacturer": "DJI",
+            "model": "Agras T70"
+        },
+        {
+            "pattern": "^DJI[_ ]?AGRAS[-_ ]?T100",
+            "manufacturer": "DJI",
+            "model": "Agras T100"
+        },
+        {
+            "pattern": "^DJI[_ ]?MATRICE[-_ ]?400",
+            "manufacturer": "DJI",
+            "model": "Matrice 400"
+        },
+        {
+            "pattern": "^DJI[_ ]?MATRICE[-_ ]?4D",
+            "manufacturer": "DJI",
+            "model": "Matrice 4D"
+        },
+        {
+            "pattern": "^DJI[_ ]?FLYCART[-_ ]?100",
+            "manufacturer": "DJI",
+            "model": "FlyCart 100"
+        },
+        {
+            "pattern": "^DJI[_ ]?DOCK[-_ ]?3",
+            "manufacturer": "DJI",
+            "model": "Dock 3"
+        },
+        {
+            "pattern": "^Antigravity",
+            "manufacturer": "Antigravity/Insta360",
+            "model_hint": "A1"
+        },
+        {
+            "pattern": "^SKYVIPER",
+            "manufacturer": "Sky Viper/Skyrocket",
+            "model_hint": "GPS drone"
+        },
+        {
+            "pattern": "^Sky[-_ ]?Viper",
+            "manufacturer": "Sky Viper/Skyrocket",
+            "model_hint": "GPS drone"
+        },
+        {
+            "pattern": "^Propel",
+            "manufacturer": "Propel",
+            "model_hint": "toy drone"
+        },
+        {
+            "pattern": "^Sky[-_ ]?Rider",
+            "manufacturer": "Propel",
+            "model_hint": "Sky Rider"
+        },
+        {
+            "pattern": "^DroneID",
+            "manufacturer": "OpenDroneID",
+            "model_hint": "RemoteID transmitter"
+        },
+        {
+            "pattern": "^DroneBeacon",
+            "manufacturer": "BlueMark",
+            "model_hint": "DroneBeacon db120"
+        },
+        {
+            "pattern": "^Dronetag",
+            "manufacturer": "Dronetag",
+            "model_hint": "RemoteID beacon"
+        },
+        {
+            "pattern": "^FPV[_-]?WIFI",
+            "manufacturer": "Generic",
+            "model_hint": "Chinese WiFi FPV drone"
+        },
+        {
+            "pattern": "^WiFi[-_]?UFO",
+            "manufacturer": "Generic",
+            "model_hint": "cheap WiFi UFO drone"
+        },
+        {
+            "pattern": "^WiFi[-_]?FPV",
+            "manufacturer": "Generic",
+            "model_hint": "WiFi FPV drone"
+        },
+        {
+            "pattern": "^RCFPV",
+            "manufacturer": "Generic",
+            "model_hint": "RC FPV app drone"
+        },
+        {
+            "pattern": "^YD[-_]UFO",
+            "manufacturer": "ATTOP",
+            "model_hint": "UFO drone"
+        },
+        {
+            "pattern": "^XBM[-_]",
+            "manufacturer": "XBM",
+            "model_hint": "720P drone"
+        },
+        {
+            "pattern": "^360[-_ ]?Flight",
+            "manufacturer": "360 Flight",
+            "model_hint": "drone"
+        },
+        {
+            "pattern": "^360[-_ ]?L[-_ ]?Flight",
+            "manufacturer": "360 Flight",
+            "model_hint": "L variant"
+        },
+        {
+            "pattern": "^HolyStoneFPV",
+            "manufacturer": "Holy Stone",
+            "model_hint": "FPV drone"
+        },
+        {
+            "pattern": "^EXO[-_ ]",
+            "manufacturer": "EXO Drones",
+            "model_hint": "consumer drone"
+        },
+        {
+            "pattern": "^Flytrex",
+            "manufacturer": "Flytrex",
+            "model_hint": "delivery drone"
+        },
+        {
+            "pattern": "^EVO[-_ ]?Max[-_ ]?4[NT]",
+            "manufacturer": "Autel",
+            "model_hint": "EVO Max 4N/4T"
         }
     ]
 }
