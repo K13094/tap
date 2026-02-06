@@ -93,15 +93,15 @@ def _ensure_patterns():
         # Skydio
         "Skydio", "X10D", "X10",
         # Yuneec
-        "Yuneec", "YUNEEC", "Typhoon", "Mantis", "Breeze",
+        "Yuneec", "YUNEEC", "Typhoon", "Mantis",
         "H520", "H850",
         # Other major manufacturers
         "FIMI", "PowerEgg", "PowerVision", "PowerEye",
         "Hubsan", "Holy", "Xiaomi",
         "BETAFPV", "BetaFPV", "Cetus", "Meteor",
         "iFlight", "Nazgul", "Chimera", "Cinewhoop",
-        "Walksnail", "Caddx", "GEPRC", "CineLog", "MARK5", "DarkStar",
-        "Diatone", "Flywoo", "Explorer", "HappyModel", "Mobula", "Crux",
+        "Walksnail", "Caddx", "GEPRC", "CineLog", "DarkStar",
+        "Diatone", "Flywoo", "HappyModel", "Mobula", "Crux",
         "SpeedyBee", "Eachine", "EMAX", "TinyHawk", "HDZero",
         "Fatshark", "TBS", "CROSSFIRE",
         # Budget consumer drones
@@ -121,28 +121,28 @@ def _ensure_patterns():
         "Wing", "EHang", "Matternet", "Zipline", "Joby",
         "Wisk", "Volansi", "Wingtra", "senseFly", "SENSEFLY", "Delair",
         "AgEagle", "eBee", "PrecisionHawk", "DroneDeploy",
-        "Brinc", "Lemur", "Responder", "Guardian",
-        "Teal", "GoldenEagle", "Freefly", "ASTRO", "ALTA",
-        "ModalAI", "Sentinel", "VOXL",
+        "Brinc", "Lemur",
+        "GoldenEagle", "Freefly", "ASTRO",
+        "ModalAI", "VOXL",
         "InspiredFlight", "IF750", "IF800", "IF1200",
-        "Draganfly", "Commander", "Quantix",
-        "Flyability", "Elios", "SkyRanger", "FLIR", "SIRAS",
+        "Draganfly", "Quantix",
+        "Flyability", "Elios", "SkyRanger", "SIRAS",
         "Percepto", "Airobotics", "Censys", "Sentaero",
         "Prodrone", "ACSL", "SOTEN", "Doosan",
         "MicroDrone", "Trinity", "Quantum",
         "Wingcopter", "ArduPilot", "PX4",
         # Military / law enforcement
-        "BlackHornet", "RAVEN", "AeroVironment", "Switchblade",
+        "BlackHornet", "AeroVironment", "Switchblade",
         "InstantEye",
         # DIY / open-source
         "ESP-DRONE", "PixRacer", "QGroundControl", "MissionPlanner",
         "SoloLink",
         # Additional manufacturers
-        "Walkera", "Vitus", "ZeroTech", "Dobby", "ZeroZero",
-        "Wingsland", "XDynamics", "Evolve",
+        "Walkera", "Vitus", "ZeroTech", "ZeroZero",
+        "Wingsland", "XDynamics",
         "Volatus", "InDro", "Herelink", "CubePilot",
-        "Kespry", "Lancaster", "XAG",
-        "Vantage", "Vesper", "ImpossibleAero",
+        "Kespry", "XAG",
+        "Vesper", "ImpossibleAero",
         "HarrisAerial",
     )
     triggers.update(_SSID_TRIGGERS)

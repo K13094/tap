@@ -1005,11 +1005,6 @@
             "model": "Mambo"
         },
         {
-            "pattern": "^Swing[-_ ]",
-            "manufacturer": "Parrot",
-            "model": "Swing"
-        },
-        {
             "pattern": "^RollingSpider",
             "manufacturer": "Parrot",
             "model": "Rolling Spider"
@@ -1045,19 +1040,9 @@
             "model": "Hydrofoil"
         },
         {
-            "pattern": "^Airborne",
-            "manufacturer": "Parrot",
-            "model": "Airborne"
-        },
-        {
             "pattern": "^NightFury",
             "manufacturer": "Parrot",
             "model": "Night Fury"
-        },
-        {
-            "pattern": "^Cargo",
-            "manufacturer": "Parrot",
-            "model": "Cargo"
         },
         {
             "pattern": "^Autel[-_ ]",
@@ -1121,16 +1106,6 @@
             "model_hint": "generic"
         },
         {
-            "pattern": "^S2[-_ ]",
-            "manufacturer": "Skydio",
-            "model": "Skydio 2"
-        },
-        {
-            "pattern": "^X2[-_ ]",
-            "manufacturer": "Skydio",
-            "model": "Skydio X2"
-        },
-        {
             "pattern": "^X10[-_ ]",
             "manufacturer": "Skydio",
             "model": "Skydio X10"
@@ -1184,11 +1159,6 @@
             "pattern": "^MantisG",
             "manufacturer": "Yuneec",
             "model": "Mantis G"
-        },
-        {
-            "pattern": "^Breeze[-_ ]",
-            "manufacturer": "Yuneec",
-            "model": "Breeze 4K"
         },
         {
             "pattern": "^YuneecST10",
@@ -1372,11 +1342,6 @@
             "model_hint": "generic"
         },
         {
-            "pattern": "^Solo[-_ ]",
-            "manufacturer": "3D Robotics",
-            "model": "Solo"
-        },
-        {
             "pattern": "^Karma[-_ ]",
             "manufacturer": "GoPro",
             "model": "Karma"
@@ -1422,19 +1387,9 @@
             "model_hint": "generic"
         },
         {
-            "pattern": "^Dreamer[-_ ]",
-            "manufacturer": "Potensic",
-            "model_hint": "Dreamer"
-        },
-        {
             "pattern": "^ATOM[-_ ]?SE",
             "manufacturer": "Potensic",
             "model": "Atom SE"
-        },
-        {
-            "pattern": "^ATOM[-_ ]",
-            "manufacturer": "Potensic",
-            "model": "Atom"
         },
         {
             "pattern": "^Ruko[-_ ]",
@@ -1507,11 +1462,6 @@
             "model_hint": "generic"
         },
         {
-            "pattern": "^EX\\d",
-            "manufacturer": "Eachine",
-            "model_hint": "EX series"
-        },
-        {
             "pattern": "^E520",
             "manufacturer": "Eachine",
             "model": "E520"
@@ -1572,11 +1522,6 @@
             "model_hint": "generic"
         },
         {
-            "pattern": "^CX[-_ ]?\\d",
-            "manufacturer": "Cheerson",
-            "model_hint": "CX series"
-        },
-        {
             "pattern": "^WLtoys",
             "manufacturer": "WLtoys",
             "model_hint": "generic"
@@ -1602,11 +1547,6 @@
             "model_hint": "generic"
         },
         {
-            "pattern": "^D\\d{2}[-_ ]",
-            "manufacturer": "DEERC",
-            "model_hint": "D series"
-        },
-        {
             "pattern": "^SIMREX",
             "manufacturer": "SIMREX",
             "model_hint": "generic"
@@ -1625,11 +1565,6 @@
             "pattern": "^NEHEME",
             "manufacturer": "NEHEME",
             "model_hint": "generic"
-        },
-        {
-            "pattern": "^NH\\d{3}",
-            "manufacturer": "NEHEME",
-            "model_hint": "NH series"
         },
         {
             "pattern": "^Dragon[-_ ]?Touch",
@@ -1673,11 +1608,6 @@
         },
         {
             "pattern": "^BetaFPV",
-            "manufacturer": "BetaFPV",
-            "model_hint": "generic"
-        },
-        {
-            "pattern": "^Beta\\d{2}",
             "manufacturer": "BetaFPV",
             "model_hint": "generic"
         },
@@ -1825,19 +1755,9 @@
             "model_hint": "Alta"
         },
         {
-            "pattern": "^ALTA[-_ ]",
-            "manufacturer": "Freefly",
-            "model_hint": "Alta"
-        },
-        {
             "pattern": "^ASTRO[-_ ]?MAX",
             "manufacturer": "Freefly",
             "model": "Astro Max"
-        },
-        {
-            "pattern": "^ASTRO[-_ ]",
-            "manufacturer": "Freefly",
-            "model": "Astro"
         },
         {
             "pattern": "^WingtraOne",
@@ -1905,11 +1825,6 @@
             "model": "Trinity F90+"
         },
         {
-            "pattern": "^Vector[-_ ]",
-            "manufacturer": "Quantum-Systems",
-            "model": "Vector"
-        },
-        {
             "pattern": "^Quantum[-_ ]?Sys",
             "manufacturer": "Quantum-Systems",
             "model_hint": "generic"
@@ -1940,11 +1855,6 @@
             "model_hint": "Elios"
         },
         {
-            "pattern": "^FLIR[-_ ]",
-            "manufacturer": "Teledyne FLIR",
-            "model_hint": "SkyRanger"
-        },
-        {
             "pattern": "^SkyRanger",
             "manufacturer": "Teledyne FLIR",
             "model_hint": "SkyRanger"
@@ -1963,11 +1873,6 @@
             "pattern": "^DRAGANFLY",
             "manufacturer": "Draganfly",
             "model_hint": "generic"
-        },
-        {
-            "pattern": "^Commander[-_ ]?3",
-            "manufacturer": "Draganfly",
-            "model": "Commander 3XL"
         },
         {
             "pattern": "^Quantix",
@@ -2000,11 +1905,6 @@
             "model_hint": "generic"
         },
         {
-            "pattern": "^Carrier[-_ ]?H",
-            "manufacturer": "Harris Aerial",
-            "model_hint": "Carrier"
-        },
-        {
             "pattern": "^Censys",
             "manufacturer": "Censys Technologies",
             "model": "Sentaero"
@@ -2030,39 +1930,14 @@
             "model_hint": "Lemur"
         },
         {
-            "pattern": "^Responder[-_ ]",
-            "manufacturer": "Brinc",
-            "model": "Responder"
-        },
-        {
-            "pattern": "^Guardian[-_ ]",
-            "manufacturer": "Brinc",
-            "model": "Guardian"
-        },
-        {
-            "pattern": "^TEAL[-_ ]",
-            "manufacturer": "Teal Drones",
-            "model_hint": "Golden Eagle"
-        },
-        {
             "pattern": "^GoldenEagle",
             "manufacturer": "Teal Drones",
             "model": "Golden Eagle"
         },
         {
-            "pattern": "^Vantage[-_ ]",
-            "manufacturer": "Vantage Robotics",
-            "model": "Vesper"
-        },
-        {
             "pattern": "^Vesper[-_ ]",
             "manufacturer": "Vantage Robotics",
             "model": "Vesper"
-        },
-        {
-            "pattern": "^Puma[-_ ]?[A3]",
-            "manufacturer": "AeroVironment",
-            "model_hint": "Puma"
         },
         {
             "pattern": "^Switchblade",
@@ -2145,16 +2020,6 @@
             "model": "XP 2020"
         },
         {
-            "pattern": "^P100",
-            "manufacturer": "XAG",
-            "model": "P100"
-        },
-        {
-            "pattern": "^V40",
-            "manufacturer": "XAG",
-            "model": "V40"
-        },
-        {
             "pattern": "^Kespry",
             "manufacturer": "Kespry",
             "model_hint": "generic"
@@ -2163,11 +2028,6 @@
             "pattern": "^PrecisionHawk",
             "manufacturer": "PrecisionHawk",
             "model_hint": "Lancaster"
-        },
-        {
-            "pattern": "^Lancaster",
-            "manufacturer": "PrecisionHawk",
-            "model": "Lancaster"
         },
         {
             "pattern": "^DroneDeploy",
@@ -2198,11 +2058,6 @@
             "pattern": "^Doosan[-_ ]",
             "manufacturer": "Doosan Mobility",
             "model_hint": "DS30"
-        },
-        {
-            "pattern": "^Evolve[-_ ]?2",
-            "manufacturer": "XDynamics",
-            "model": "Evolve 2"
         },
         {
             "pattern": "^XDynamics",
@@ -2238,11 +2093,6 @@
             "pattern": "^ImpossibleAero",
             "manufacturer": "Impossible Aerospace",
             "model_hint": "US-1"
-        },
-        {
-            "pattern": "^US[-_ ]?1[-_ ]",
-            "manufacturer": "Impossible Aerospace",
-            "model": "US-1"
         },
         {
             "pattern": "^Herelink",
@@ -2289,11 +2139,6 @@
             "model_hint": "Sentinel"
         },
         {
-            "pattern": "^Sentinel[-_ ]",
-            "manufacturer": "ModalAI",
-            "model": "Sentinel"
-        },
-        {
             "pattern": "^VOXL[-_ ]",
             "manufacturer": "ModalAI",
             "model_hint": "VOXL"
@@ -2322,11 +2167,6 @@
             "pattern": "^Air65",
             "manufacturer": "BetaFPV",
             "model": "Air65"
-        },
-        {
-            "pattern": "^MARK5",
-            "manufacturer": "GEPRC",
-            "model": "Mark5"
         },
         {
             "pattern": "^Explorer[-_ ]?LR",
@@ -2372,11 +2212,6 @@
             "pattern": "^ZEROTECH",
             "manufacturer": "ZeroTech",
             "model_hint": "generic"
-        },
-        {
-            "pattern": "^Dobby",
-            "manufacturer": "ZeroTech",
-            "model": "Dobby"
         },
         {
             "pattern": "^Wingsland[-_ ]",
@@ -2452,11 +2287,6 @@
             "pattern": "^BLACK[-_ ]?HORNET",
             "manufacturer": "FLIR/Prox Dynamics",
             "model": "Black Hornet"
-        },
-        {
-            "pattern": "^RAVEN[-_ ]",
-            "manufacturer": "AeroVironment",
-            "model": "Raven"
         },
         {
             "pattern": "^DJI[-_ ]?FLIP",
